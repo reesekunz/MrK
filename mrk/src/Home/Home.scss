@@ -32,6 +32,7 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
         bottom: 0;
         left: 0;
       }
+      
     }
 
     .rightwall {
@@ -93,7 +94,6 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
         color: white !important;
         // font-family: "Nothing You Could Do", cursive;
         font-family: "Indie Flower", cursive;
-        opacity: 1 !important;
         z-index: 1;
       }
     }

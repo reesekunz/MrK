@@ -63,14 +63,21 @@
     height: 375px;
     width: 600px;
     border: solid 2px #1f75fe;
-    .tabs {
-      //   border: 1px solid red;
+    .whiteboard-header {
       width: 410px;
 
       font-family: "Permanent Marker", sans-serif, arial;
       font-size: 20px;
       color: #1f75fe;
-      margin-top: 35px;
+      margin-top: 5px;
+    }
+    .tabs {
+      width: 410px;
+
+      font-family: "Permanent Marker", sans-serif, arial;
+      font-size: 20px;
+      color: #1f75fe;
+      margin-top: 5px;
     }
   }
   button {
