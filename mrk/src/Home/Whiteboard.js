@@ -19,14 +19,14 @@ function Whiteboard() {
                 activeClassName="activeNavButton"
                 className="link"
               >
-                Social Studies |
+                Social Studies
               </NavLink>
               <NavLink
                 to="/math"
                 activeClassName="activeNavButton"
                 className="link"
               >
-                Math |
+                Math
               </NavLink>
               <NavLink
                 to="/events"
