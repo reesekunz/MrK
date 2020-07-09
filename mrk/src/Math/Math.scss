@@ -1,0 +1,24 @@
+.math-container {
+  border: 1px solid black;
+  .subject-header {
+    margin: 5px auto 5px auto;
+    font-family: "Permanent Marker", sans-serif, arial;
+    font-size: 60px;
+    color: #1f75fe;
+    text-align: center;
+  }
+  .quote-wrapper {
+    // border: 2px solid red;
+
+    .subject-quote {
+      transform: rotate(-90deg);
+      // transform-origin: left top 0;
+      float: left;
+      margin-left: -230px;
+      margin-top: 340px;
+      font-size: 40px;
+      // font-family: "Nothing You Could Do", cursive;
+      font-family: "Indie Flower", cursive;
+    }
+  }
+}

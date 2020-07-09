@@ -4,9 +4,14 @@ import Hamburger from "../util/Hamburger";
 
 function MathPage() {
   return (
-    <div className="events-container">
+    <div className="math-container">
       <Hamburger />
-      Math Page
+      <h3 className="subject-header">Math</h3>
+      <div className="quote-wrapper">
+        <p className="subject-quote">
+          "Do or do not, there is no try." - Yoda{" "}
+        </p>
+      </div>
     </div>
   );
 }
