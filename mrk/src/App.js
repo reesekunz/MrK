@@ -6,6 +6,7 @@ import { Route, NavLink } from "react-router-dom";
 import SocialStudies from "./SocialStudies/SocialStudies";
 import MathPage from "./Math/Math";
 import Events from "./Events/Events";
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/social-studies" component={SocialStudies} />
       <Route path="/math" component={MathPage} />
       <Route path="/events" component={Events} />
+      <Route path="/contact" component={Contact} />
     </div>
   );
 }
