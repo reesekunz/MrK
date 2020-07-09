@@ -18,8 +18,6 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
     }
 
     .floor {
-      background: #ffc66f;
-
       background-image: $wall-material;
       background-size: 8%;
       border: 1px solid black;
@@ -85,6 +83,18 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
           #000 50%
         );
         opacity: 0.9;
+      }
+
+      .quote {
+        font-size: 14px;
+        margin-left: 40%;
+        width: 50%;
+        text-align: left;
+        color: white !important;
+        // font-family: "Nothing You Could Do", cursive;
+        font-family: "Indie Flower", cursive;
+        opacity: 1 !important;
+        z-index: 1;
       }
     }
 
