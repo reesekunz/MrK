@@ -12,7 +12,7 @@ function Home() {
             “Success is peace of mind, which is a direct result of
             self-satisfaction in knowing you did your best to become the best
             you are capable of becoming.”
-            <div className="quote-by">- John Wooden</div>
+            <div className="quote-by">- John Wooden 🏀</div>
           </div>
         </div>
         <div className="threed rightwall ">
