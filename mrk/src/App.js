@@ -7,7 +7,7 @@ import SocialStudies from "./SocialStudies/SocialStudies";
 import MathPage from "./Math/Math";
 import Events from "./Events/Events";
 import Contact from "./Contact/Contact";
-
+import About from "./About/About";
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
       <Route path="/math" component={MathPage} />
       <Route path="/events" component={Events} />
       <Route path="/contact" component={Contact} />
+      <Route path="/about" component={About} />
     </div>
   );
 }

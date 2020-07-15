@@ -6,6 +6,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <Hamburger />
+      <h3 className="subject-header">Contact Mr. Kunz</h3>
       Contact Page
     </div>
   );

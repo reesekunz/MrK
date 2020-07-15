@@ -45,7 +45,7 @@
 
   .overlay-content {
     position: relative;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 100%;
     color: white;
     display: flex;
@@ -95,6 +95,12 @@
       border-bottom: 1px solid mediumpurple;
       &:hover {
         background-color: mediumpurple;
+      }
+    }
+    #about {
+      border-bottom: 1px solid blue;
+      &:hover {
+        background-color: blue;
       }
     }
   }

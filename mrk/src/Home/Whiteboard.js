@@ -8,7 +8,7 @@ function Whiteboard() {
       <div id="content">
         <div id="white-board">
           <div id="text">
-            <span>Welcome to Mr. Kunz's Classroom! 👋</span>
+            <span>Welcome to Mr. Kunz' Classroom! 👋</span>
           </div>
 
           <div className="whiteboard-content">
@@ -34,6 +34,25 @@ function Whiteboard() {
                 className="link"
               >
                 School Events
+              </NavLink>
+            </div>
+            <div className="about-contact-container">
+              <NavLink
+                to="/about"
+                activeClassName="activeNavButton"
+                className="link"
+              >
+                {" "}
+                About
+              </NavLink>
+
+              <NavLink
+                to="/contact"
+                activeClassName="activeNavButton"
+                className="link"
+              >
+                {" "}
+                Contact
               </NavLink>
             </div>
           </div>

@@ -10,7 +10,7 @@ import {
 } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineCalculator } from "react-icons/ai";
-import { BsChatDots } from "react-icons/bs";
+import { BsChatDots, BsPersonSquare } from "react-icons/bs";
 
 import { Link } from "react-router-dom";
 function Hamburger() {
@@ -38,24 +38,52 @@ function Hamburger() {
 
         <div className="overlay-content">
           <div class="eachNav" id="home">
-            <IoIosHome size={25} />
+            <Link to="/">
+              {" "}
+              <IoIosHome size={25} />
+            </Link>
+
             <Link to="/">Home</Link>
           </div>
           <div className="eachNav" id="social-studies">
-            <IoMdGlobe size={25} />
+            <a href="/social-studies">
+              {" "}
+              <IoMdGlobe size={25} />
+            </a>
+
             <a href="/social-studies">Social Studies</a>
           </div>
           <div className="eachNav" id="math">
-            <AiOutlineCalculator size={25} />
+            <a href="/math">
+              {" "}
+              <AiOutlineCalculator size={25} />
+            </a>
+
             <a href="/math">Math</a>
           </div>
           <div className="eachNav" id="events">
-            <IoMdCalendar size={25} />
+            <a href="/events">
+              {" "}
+              <IoMdCalendar size={25} />
+            </a>
+
             <a href="/events">School Events</a>
           </div>
+          <div className="eachNav" id="about">
+            <a href="/about">
+              {" "}
+              <BsPersonSquare size={25} />
+            </a>
+
+            <a href="/about">About</a>
+          </div>
           <div className="eachNav" id="contact">
-            <BsChatDots size={25} />
-            <a href="/contact">Contact Mr. Kunz</a>
+            <a href="/contact">
+              {" "}
+              <BsChatDots size={25} />
+            </a>
+
+            <a href="/contact">Contact </a>
           </div>
         </div>
       </div>
