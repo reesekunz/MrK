@@ -8,6 +8,7 @@ import MathPage from "./Math/Math";
 import Events from "./Events/Events";
 import Contact from "./Contact/Contact";
 import About from "./About/About";
+
 function App() {
   return (
     <div className="App">
