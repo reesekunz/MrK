@@ -1,6 +1,5 @@
 import React from "react";
 import "./SocialStudies.scss";
-import StickyNotes from "./StickyNotes";
 
 import Hamburger from "../util/Hamburger";
 
@@ -14,7 +13,6 @@ function SocialStudies() {
           "Veni, vidi, vici." - Julius Caesar{" "}
         </p>
       </div>
-      <StickyNotes />
     </div>
   );
 }

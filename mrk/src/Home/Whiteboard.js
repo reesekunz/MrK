@@ -1,6 +1,7 @@
 import React from "react";
 import "./Whiteboard.scss";
 import { Route, NavLink } from "react-router-dom";
+import { AiOutlineInfoCircle } from "react-icons/ai";
 
 function Whiteboard() {
   return (

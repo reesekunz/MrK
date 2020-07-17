@@ -8,6 +8,7 @@ import MathPage from "./Math/Math";
 import Events from "./Events/Events";
 import Contact from "./Contact/Contact";
 import About from "./About/About";
+import CurrentTopic from "./SocialStudies/CurrentTopic";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/events" component={Events} />
       <Route path="/contact" component={Contact} />
       <Route path="/about" component={About} />
+      <Route path="/current-topic" component={CurrentTopic} />
     </div>
   );
 }

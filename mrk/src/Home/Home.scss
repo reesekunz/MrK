@@ -87,13 +87,39 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
 
       .quote {
         font-size: 14px;
-        margin-left: 45%;
+        margin-left: 35%;
         width: 50%;
         text-align: left;
         color: white !important;
         // font-family: "Nothing You Could Do", cursive;
         font-family: "Indie Flower", cursive;
         z-index: 1;
+        @media (max-width: 1600px) {
+          margin-left: 40%;
+          width: 40%;
+        }
+        @media (max-width: 1300px) {
+          font-size: 12px;
+          margin-left: 45%;
+          width: 35%;
+        }
+        @media (max-width: 1100px) {
+          margin-left: 55%;
+          width: 30%;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          font-size: 13px;
+        }
+        @media (max-width: 900px) {
+          margin-left: 62.5%;
+          width: 20%;
+          font-size: 12px;
+        }
+        @media (max-width: 800px) {
+          display: none;
+        }
         .quote-by {
           margin-left: 5%;
         }
