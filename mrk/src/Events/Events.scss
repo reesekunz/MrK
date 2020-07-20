@@ -1,10 +1,102 @@
 .events-container {
+  background: azure;
+  padding-bottom: 80px;
   .subject-header {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
     margin: 5px auto 5px auto;
     font-family: "Permanent Marker", sans-serif, arial;
     font-size: 60px;
     color: #1f75fe;
     text-align: center;
+    @media (max-width: 500px) {
+      font-size: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .content {
+    font-family: "Roboto", sans-serif;
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // margin-left: 100px;
+    margin-left: 12.5%;
+    margin-top: 2.5%;
+    @media (max-width: 1200px) {
+      width: 80%;
+      margin-left: 10%;
+    }
+    // @media (max-width: 800px) {
+    //   margin-top: 5%;
+    //   width: 90%;
+    //   margin-left: 0;
+    // }
+    @media (max-width: 500px) {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      // color: white;
+    }
+
+    .event-wrapper {
+      display: flex;
+      border-bottom: 1px solid black;
+      margin-top: 4%;
+      margin-bottom: 1%;
+      height: 40px;
+      @media (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border-bottom: 1px solid black;
+        margin: 0;
+      }
+    }
+    .title {
+      width: 80%;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      line-height: 0.975;
+      @media (max-width: 500px) {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .event {
+        text-decoration: none;
+        // font-weight: normal;
+        color: black;
+        font-size: 20px;
+        @media (max-width: 1200px) {
+          font-size: 18px;
+        }
+      }
+    }
+    .date {
+      width: 20%;
+      text-align: right;
+      font-style: italic;
+      font-weight: lighter;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 1%;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      @media (max-width: 1200px) {
+        font-size: 12px;
+      }
+
+      @media (max-width: 500px) {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 0;
+        font-size: 14px;
+      }
+    }
   }
 }
