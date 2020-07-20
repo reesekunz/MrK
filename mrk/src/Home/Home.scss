@@ -3,12 +3,14 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
 
 .home-container {
   height: 100%;
+  margin: 0;
+  padding: 0;
   .stage {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     perspective: $camera-distance;
     animation: camera 10s infinite;
     position: relative;
@@ -190,6 +192,7 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
       height: 4em;
       left: 50%;
       top: 50%;
+      margin: 0;
     }
   }
 }
