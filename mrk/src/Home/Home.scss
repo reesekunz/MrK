@@ -129,6 +129,8 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
     }
 
     .center {
+      border: 1px solid black;
+
       height: 3em !important;
       transform: translate(-50%, -50%);
       //   background: mediumpurple !important;

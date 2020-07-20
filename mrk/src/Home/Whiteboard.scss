@@ -8,6 +8,7 @@
   @media (max-width: 500px) {
     margin-left: 12.5%;
     margin-right: 12.5%;
+    // height: 300px;
   }
   #content {
     display: flex;
@@ -85,6 +86,10 @@
       font-size: 20px;
       color: #1f75fe;
       margin-top: 5px;
+      @media (max-width: 800px) {
+        font-size: 16px;
+        margin-top: 10px;
+      }
     }
     .tabs {
       width: 410px;
