@@ -10,10 +10,11 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     perspective: $camera-distance;
     animation: camera 10s infinite;
     position: relative;
+    overflow: hidden;
 
     div {
       box-sizing: border-box;
