@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hobbies.scss";
-
+import Rafiki from "../images/Rafiki.jpg";
 function Hobbies() {
   return (
     <div className="hobbies-container">
@@ -11,7 +11,7 @@ function Hobbies() {
         all for Disney World Parks (Magic Kingdom, EPCOT, Disney Studios, and
         Animal Kingdom) in one day!
       </p>
-      <h3>Favorite Characters:</h3>
+      <h2>Favorite Characters:</h2>
       <ul>
         <li>Goofy</li>
         <li>Buzz Lightyear</li>
@@ -21,8 +21,14 @@ function Hobbies() {
         <li>Forky</li>
         <li> Chip (Of Chip and Dale, not from Beauty and the Beast....)</li>
       </ul>
-      <h3>Favorite Animated Disney Movies:</h3>
-      <p>(For this list, I've decided to include Pixar movies)</p>
+      <div className="img-wrapper">
+        <img src={Rafiki} className="rafiki-img" alt="Rafiki!!" />
+        <p className="img-caption">Rafiki!!</p>
+      </div>
+      <h2>Favorite Animated Disney Movies:</h2>
+      <p className="explanation">
+        (For this list, I've decided to include Pixar movies)
+      </p>
       <ul>
         <li> "Toy Story"</li>
         <li> "Fox and the Hound"</li>
@@ -33,7 +39,7 @@ function Hobbies() {
         <li> "Mulan"</li>
         <li> "Cars"</li>
       </ul>
-      <h3>Favorite Non-Animated Disney Movies:</h3>
+      <h2>Favorite Non-Animated Disney Movies:</h2>
       <ul>
         <li> "The Parent Trap" (The Original, with Haley Mills)</li>
         <li> "The Love Bug"</li>
@@ -44,7 +50,7 @@ function Hobbies() {
         <li> "The Rookie"</li>
         <li> "National Treasure"</li>
       </ul>
-      <h3>Favorite Attractions (rides) at the Disney Parks</h3>
+      <h2>Favorite Attractions (rides) at the Disney Parks:</h2>
       <ul>
         <li> Soarin' (California Adventure and EPCOT)</li>
         <li> Haunted Mansion (Disneyland and Magic Kingdom)</li>
@@ -59,48 +65,56 @@ function Hobbies() {
         able to ride Slinky Dog Dash, yet......
       </p>
       <h1>Sports</h1>
-      <h3>Favorite Teams:</h3>
-      <h5>Baseball:</h5>
+      <h2>Favorite Teams:</h2>
+      <h3>Baseball ⚾</h3>
       <ul>
-        <li>
-          {" "}
-          Diamondbacks and Nationals (2019 World Series Winners! Go Nats!)
-        </li>
-        <li> And in the American League, I root for the Angels and Rays.</li>
+        <li> Arizona Diamondbacks</li>
+        <li>Washington Nationals (2019 World Series Winners! Go Nats!)</li>
+        <li>Los Angeles Angels</li>
+        <li>Tampa Bay Rays</li>
       </ul>
-      <h5>Football:</h5>
+      <h3>Football 🏈</h3>
       <ul>
-        <li>Steelers, Cardinals, and whomever is playing the Cowboys</li>
+        <li>Pittsburgh Steelers</li>
+        <li>Arizona Cardinals</li>
+        <li>Whomever is playing the Cowboys</li>
       </ul>
-      <h5>Basketball:</h5>
+      <h3>Basketball 🏀</h3>
       <ul>
-        <li>Suns and Spurs</li>
+        <li>Phoenix Suns</li>
+        <li>San Antonio Spurs </li>
       </ul>
-      <h5>Hockey:</h5>
+      <h3>Hockey 🏒</h3>
       <ul>
-        <li>Capitals and Coyotes</li>
+        <li>Washington Capitals</li>
+        <li>Phoenix Coyotes</li>
       </ul>
-      <h5>Soccer:</h5>
+      <h3>Soccer ⚽</h3>
       <ul>
         <li>
           I love watching the US teams in the World Cup, both mens and ladies.
         </li>
       </ul>
-      <h3>Favorite Sports Memories:</h3>
-      <h5> Getting to go to Games 2, 6, and 7 of the 2001 World Series</h5>
+      <h2>Favorite Sports Memories:</h2>
+      <h3> Getting to go to Games 2, 6, and 7 of the 2001 World Series</h3>
       <ul>
         <li>Took my oldest son to Game 2...</li>
         <li>My mom to Game 6 and...</li>
         <li>My wife to Game 7!</li>
       </ul>
+      <h3>
+        {" "}
+        Volunteering at the 2011 Baseball All-Star Game Fan Festival and working
+        in the Green Room.
+      </h3>
+
       <ul>
         <li>
-          Volunteering at the 2011 Baseball All-Star Game Fan Festival and
-          working in the Green Room. I got to meet several Hall of Famers,
-          including Rollie Fingers, Cal Ripken, Gaylord Perry, Earl Weaver...
+          I got to meet several Hall of Famers, including Rollie Fingers, Cal
+          Ripken, Gaylord Perry, Earl Weaver...
         </li>
       </ul>
-      <h5> Coaching Little League Baseball for over 25 years!</h5>
+      <h3> Coaching Little League Baseball for over 25 years!</h3>
       <ul>
         <li>
           Oldest pitching a complete game, near shutout, with a band playing
@@ -121,11 +135,11 @@ function Hobbies() {
           Series!)
         </li>
       </ul>
-      <h5>
+      <h3>
         {" "}
         Coaching youth basketball (Fifth grade through post-high school) for
         about twenty years
-      </h5>
+      </h3>
       <ul>
         <li>Coaching in the Suns arena several times in a championship game</li>
         <li>Getting to coach the son of an NBA coach</li>
@@ -134,18 +148,17 @@ function Hobbies() {
         </li>
         <li>Seeing how awesome my sons were to their teammates and friends</li>
       </ul>
+      <h3>Getting to attend the 1984 Olympics with my mom, sister and wife</h3>
+      <h3>Visiting the Hall-of-Fames</h3>
       <ul>
         <li>
-          Getting to attend the 1984 Olympics with my mom, sister and wife.
-        </li>
-        <li>
-          Visiting the Baseball Hall-of-Fame in Cooperstown, NY, the Basketball
+          Went to the Baseball Hall-of-Fame in Cooperstown, NY, the Basketball
           Hall-of-Fame in Springfield, MA, and Negro League Baseball
           Hall-of-Fame in Kansas City, MO.
         </li>
       </ul>
-      <h3>Favorite Sports Movies:</h3>
-      <h5>Baseball:</h5>
+      <h2>Favorite Sports Movies:</h2>
+      <h3>Baseball ⚾</h3>
       <ul>
         <li>"Field of Dreams"</li>
         <li> "Pride of the Yankees"</li>
@@ -153,7 +166,7 @@ function Hobbies() {
         <li> "The Sandlot"</li>
         <li> "The Natural"</li>
       </ul>
-      <h5>Basketball:</h5>
+      <h3>Basketball 🏀</h3>
       <ul>
         <li> "Hoosiers"</li>
         <li> "Space Jam"</li>
@@ -161,7 +174,7 @@ function Hobbies() {
         <li> "Finding Forester"</li>
         <li> "Coach Carter"</li>
       </ul>
-      <h5>Football:</h5>
+      <h3>Football 🏈</h3>
       <ul>
         <li> "Remember the Titans"</li>
         <li> "Invincible"</li>
