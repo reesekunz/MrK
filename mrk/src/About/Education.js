@@ -8,10 +8,10 @@ function Education() {
         Attended Elementary School in Massapequa, New York and Phoenix, Arizona
       </p>
       <p>Promoted from Madison # 1 Middle School in Phoenix, Arizona</p>
-      <p>Graduate of Camelback High School and Phoenix College</p>
+      <p>Graduate of Camelback High School in Phoenix, Arizona</p>
       <p>Three college degrees:</p>
       <ul>
-        <li>Associate's Degree from Phoenix, AZ</li>
+        <li>Associate's Degree from Phoenix College</li>
         <li>
           Bachelor's Degree from Grand Canyon University - Elementary Education
           with dual minors in History and Behavorial Science

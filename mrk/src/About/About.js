@@ -11,25 +11,22 @@ function About() {
   return (
     <div className="about-container">
       <Hamburger />
-      <h3 className="subject-header">About Mr. Kunz</h3>
+      <h3 className="subject-header">About</h3>
       <nav className="about-links">
-        <Link to={`/about/education`}>Education</Link>
-        <Link to={`/about/experience`}>Teaching Experience</Link>
-        <Link to={`/about/hobbies`}>Hobbies</Link>
+        <Link to={`/about/education`} className="about-link">
+          Education
+        </Link>
+        <Link to={`/about/experience`} className="about-link">
+          Experience
+        </Link>
+        <Link to={`/about/hobbies`} className="about-link">
+          Hobbies
+        </Link>
       </nav>
 
       <Route path="/about/education" component={Education} />
       <Route path="/about/experience" component={Experience} />
       <Route path="/about/hobbies" component={Hobbies} />
-
-      {/* <Route
-        path="/avengers/:avengerId/movies"
-        render={props => <AvengerMovies {...props} avenger={avenger} />}
-      />
-      <Route
-        path="/avengers/:avengerId/movies"
-        render={props => <AvengerMovies {...props} avenger={avenger} />}
-      /> */}
     </div>
   );
 }

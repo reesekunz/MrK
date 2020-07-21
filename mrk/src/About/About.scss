@@ -1,4 +1,7 @@
 .about-container {
+  // background: azure;
+  // border: 1px solid blue;
+  height: 100%;
   .subject-header {
     text-decoration: underline;
     margin: 5px auto 5px auto;
@@ -6,5 +9,28 @@
     font-size: 60px;
     color: #1f75fe;
     text-align: center;
+  }
+  .about-links {
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .about-link {
+      border: 1px solid black;
+
+      text-decoration: none;
+      padding: 1.5%;
+      font-size: 20px;
+      color: white;
+      background: black;
+      border-radius: 5px;
+      &:hover {
+        color: black;
+        background: white;
+        cursor: pointer;
+      }
+    }
   }
 }
