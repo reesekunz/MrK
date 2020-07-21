@@ -2,7 +2,175 @@ import React from "react";
 import "./Hobbies.scss";
 
 function Hobbies() {
-  return <div className="hobbies-container">Hobbies page!</div>;
+  return (
+    <div className="hobbies-container">
+      <h1>Disney Fan</h1>
+      <p>
+        I've been to Disneyland about 200 times. Also got to visit Disney World
+        many times while working in Florida. In fact, in April 2019, I visited
+        all for Disney World Parks (Magic Kingdom, EPCOT, Disney Studios, and
+        Animal Kingdom) in one day!
+      </p>
+      <h3>Favorite Characters:</h3>
+      <ul>
+        <li>Goofy</li>
+        <li>Buzz Lightyear</li>
+        <li>Olaf</li>
+        <li>Rafiki</li>
+        <li>Jiminy Cricket</li>
+        <li>Forky</li>
+        <li> Chip (Of Chip and Dale, not from Beauty and the Beast....)</li>
+      </ul>
+      <h3>Favorite Animated Disney Movies:</h3>
+      <p>(For this list, I've decided to include Pixar movies)</p>
+      <ul>
+        <li> "Toy Story"</li>
+        <li> "Fox and the Hound"</li>
+        <li> "Big Hero 6"</li>
+        <li> "Monster's Inc."</li>
+        <li>"The Goofy Movie"</li>
+        <li> "Hercules"</li>
+        <li> "Mulan"</li>
+        <li> "Cars"</li>
+      </ul>
+      <h3>Favorite Non-Animated Disney Movies:</h3>
+      <ul>
+        <li> "The Parent Trap" (The Original, with Haley Mills)</li>
+        <li> "The Love Bug"</li>
+        <li> "Mary Poppins"</li>
+        <li> "The World's Greatest Athlete"</li>
+        <li>"The Mighty Ducks"</li>
+        <li> "Remember the Titans"</li>
+        <li> "The Rookie"</li>
+        <li> "National Treasure"</li>
+      </ul>
+      <h3>Favorite Attractions (rides) at the Disney Parks</h3>
+      <ul>
+        <li> Soarin' (California Adventure and EPCOT)</li>
+        <li> Haunted Mansion (Disneyland and Magic Kingdom)</li>
+        <li> Kilmanjaro Safaris (Animal Kingdom)</li>
+        <li> Pandora--The World of Avatar (Animal Kingdom)</li>
+        <li>
+          Toy Story Midway Mania (California Adventure and Disney Studios)
+        </li>
+      </ul>
+      <p>
+        I haven't been to Star Wars Galaxy Edge, yet.... I also haven't been
+        able to ride Slinky Dog Dash, yet......
+      </p>
+      <h1>Sports</h1>
+      <h3>Favorite Teams:</h3>
+      <h5>Baseball:</h5>
+      <ul>
+        <li>
+          {" "}
+          Diamondbacks and Nationals (2019 World Series Winners! Go Nats!)
+        </li>
+        <li> And in the American League, I root for the Angels and Rays.</li>
+      </ul>
+      <h5>Football:</h5>
+      <ul>
+        <li>Steelers, Cardinals, and whomever is playing the Cowboys</li>
+      </ul>
+      <h5>Basketball:</h5>
+      <ul>
+        <li>Suns and Spurs</li>
+      </ul>
+      <h5>Hockey:</h5>
+      <ul>
+        <li>Capitals and Coyotes</li>
+      </ul>
+      <h5>Soccer:</h5>
+      <ul>
+        <li>
+          I love watching the US teams in the World Cup, both mens and ladies.
+        </li>
+      </ul>
+      <h3>Favorite Sports Memories:</h3>
+      <h5> Getting to go to Games 2, 6, and 7 of the 2001 World Series</h5>
+      <ul>
+        <li>Took my oldest son to Game 2...</li>
+        <li>My mom to Game 6 and...</li>
+        <li>My wife to Game 7!</li>
+      </ul>
+      <ul>
+        <li>
+          Volunteering at the 2011 Baseball All-Star Game Fan Festival and
+          working in the Green Room. I got to meet several Hall of Famers,
+          including Rollie Fingers, Cal Ripken, Gaylord Perry, Earl Weaver...
+        </li>
+      </ul>
+      <h5> Coaching Little League Baseball for over 25 years!</h5>
+      <ul>
+        <li>
+          Oldest pitching a complete game, near shutout, with a band playing
+          down the street...He predicted he was going to pitch that well the
+          night before...
+        </li>
+        <li>
+          Middle son going on a hitting rampage and hitting three homeruns in
+          their "Tournament of Champions" tournament
+        </li>
+        <li>
+          Youngest son playing a FANTASTIC tournament, hitting and pitching,
+          even hitting a homerun in his Cooperstown tournament
+        </li>
+        <li>
+          Loving baseball so much that my wife and I went to a Padres vs. Mets
+          game while on our honeymoon, in 1986. (The year the Mets won the World
+          Series!)
+        </li>
+      </ul>
+      <h5>
+        {" "}
+        Coaching youth basketball (Fifth grade through post-high school) for
+        about twenty years
+      </h5>
+      <ul>
+        <li>Coaching in the Suns arena several times in a championship game</li>
+        <li>Getting to coach the son of an NBA coach</li>
+        <li>
+          Getting to coach a player that played for the University of Arizona
+        </li>
+        <li>Seeing how awesome my sons were to their teammates and friends</li>
+      </ul>
+      <ul>
+        <li>
+          Getting to attend the 1984 Olympics with my mom, sister and wife.
+        </li>
+        <li>
+          Visiting the Baseball Hall-of-Fame in Cooperstown, NY, the Basketball
+          Hall-of-Fame in Springfield, MA, and Negro League Baseball
+          Hall-of-Fame in Kansas City, MO.
+        </li>
+      </ul>
+      <h3>Favorite Sports Movies:</h3>
+      <h5>Baseball:</h5>
+      <ul>
+        <li>"Field of Dreams"</li>
+        <li> "Pride of the Yankees"</li>
+        <li> "Bull Durham"</li>
+        <li> "The Sandlot"</li>
+        <li> "The Natural"</li>
+      </ul>
+      <h5>Basketball:</h5>
+      <ul>
+        <li> "Hoosiers"</li>
+        <li> "Space Jam"</li>
+        <li> "One on One"</li>
+        <li> "Finding Forester"</li>
+        <li> "Coach Carter"</li>
+      </ul>
+      <h5>Football:</h5>
+      <ul>
+        <li> "Remember the Titans"</li>
+        <li> "Invincible"</li>
+        <li> "Jerry Maguire"</li>
+        <li> "The Blind Side"</li>
+        <li> "Draft Day"</li>
+      </ul>
+    </div>
+  );
 }
 
 export default Hobbies;
