@@ -39,7 +39,7 @@ function Whiteboard() {
             </div>
             <div className="about-contact-container">
               <NavLink
-                to="/about"
+                to="/about/education"
                 activeClassName="activeNavButton"
                 className="link"
               >
