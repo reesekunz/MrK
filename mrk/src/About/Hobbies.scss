@@ -11,6 +11,9 @@
   .about-sub-header {
     text-decoration: underline;
     font-size: 40px;
+    @media (max-width: 500px) {
+      font-size: 35px;
+    }
   }
   .hobby-tabs {
     // border: 1px solid black;
@@ -23,15 +26,28 @@
     border-top: 1px solid gray;
     padding-bottom: 10px;
     padding-top: 10px;
+    @media (max-width: 500px) {
+      border: none;
+      
+    }
   }
   .sub-header {
     color: indianred;
+    @media (max-width: 500px) {
+      margin-top: 8%;
+      // margin-bottom: 8%;
+    }
   }
   h2 {
     margin-top: 5%;
+    color: darkslateblue;
+    @media (max-width: 500px) {
+      margin-top: 15%;
+      margin-bottom: 5%;
+    }
   }
   h3 {
-    margin-top: 5%;
+    margin-top: 2.5%;
   }
   li {
     margin-top: 1%;
@@ -44,6 +60,10 @@
     align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
+    @media (max-width: 500px) {
+      margin-top: 15%;
+      margin-bottom: 15%;
+    }
     .rafiki-img {
       height: 400px;
       width: 400px;
