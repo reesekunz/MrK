@@ -70,12 +70,12 @@ function Hamburger() {
             <a href="/events">School Events</a>
           </div>
           <div className="eachNav" id="about">
-            <a href="/about/education">
+            <a href="/about">
               {" "}
               <BsPersonSquare size={25} />
             </a>
 
-            <a href="/about/education">About</a>
+            <a href="/about">About</a>
           </div>
           <div className="eachNav" id="contact">
             <a href="/contact">

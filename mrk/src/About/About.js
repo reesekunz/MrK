@@ -14,7 +14,7 @@ function About() {
   return (
     <div className="about-container">
       <Hamburger />
-      <h3 className="subject-header">About</h3>
+      <h3 className="subject-header">About Me</h3>
       <img
         src={DadsHeadshot}
         alt="really just a beautiful headshot of mr kunz"

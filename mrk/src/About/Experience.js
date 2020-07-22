@@ -4,6 +4,8 @@ import "./Experience.scss";
 function Experience() {
   return (
     <div className="experience-container">
+      <h1 className="about-sub-header">Experience</h1>
+
       <p>
         I've been teaching for over 25 years. Except for the year I taught at
         San Pasqual Valley Elementary School, all my teaching has been at the
