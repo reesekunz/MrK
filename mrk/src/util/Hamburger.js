@@ -27,7 +27,7 @@ function Hamburger() {
   return (
     <div>
       <div className="hamburger-menu" onClick={openNav}>
-        <GiHamburgerMenu size={45} color="white" />
+        <GiHamburgerMenu size={45} color="yellow" />
       </div>
       <div id="myNav" className="overlay" onClick={closeNav}>
         <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
@@ -37,7 +37,7 @@ function Hamburger() {
         </a>
 
         <div className="overlay-content">
-          <div class="eachNav" id="home">
+          <div className="eachNav" id="home">
             <Link to="/">
               {" "}
               <IoIosHome size={25} />
