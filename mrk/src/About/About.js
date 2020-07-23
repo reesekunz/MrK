@@ -30,7 +30,7 @@ function About() {
           Experience
           <GrWorkshop size={35} color="white" />
         </Link>
-        <Link to={`/about/hobbies`} className="about-link">
+        <Link to={`/about/hobbies/disney-fan`} className="about-link">
           Hobbies
           <AiOutlineSmile size={35} />
         </Link>
