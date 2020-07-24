@@ -33,8 +33,8 @@
     }
     .hobbies-link {
       text-decoration: none;
-      color: white;
-      background: black;
+      color: black;
+      background: white;
       // color: black;
       border: 1px solid black;
       padding: 1.5%;
@@ -47,8 +47,8 @@
         box-shadow: 1px 1px 5px black;
       }
       &:hover {
-        color: black;
-        background: white;
+        color: white;
+        background: black;
       }
     }
     .nav {
@@ -165,7 +165,7 @@
   }
   h2 {
     margin-top: 5%;
-    color: darkslateblue;
+    // color: darkslateblue;
     @media (max-width: 500px) {
       margin-top: 15%;
       margin-bottom: 5%;
@@ -205,5 +205,25 @@
   }
   @media (max-width: 500px) {
     font-size: 16px;
+  }
+
+  .disney-sports-traveling-links {
+    display: flex;
+    // border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    
+    .disney-sports-traveling-link {
+      color: blue;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      font-size: 20px;
+      @media (max-width: 500px) {
+        font-size: 16px;
+      }
+    }
+  }
+  .emoji {
+    font-size: 40px;
   }
 }

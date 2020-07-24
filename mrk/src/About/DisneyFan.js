@@ -9,7 +9,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function DisneyFan() {
   return (
-    <div className="hobby-section" id="disney-fan">
+    <div className="hobby-section" id="disney">
       <h1 className="sub-header">Disney Fan</h1>
       <p>
         I've been to Disneyland about 200 times. Also got to visit Disney World
@@ -18,30 +18,31 @@ function DisneyFan() {
         Animal Kingdom) in one day!
       </p>
 
-      <nav className="disney-fan-links">
+      <nav className="disney-sports-traveling-links">
+        <p className="view-my">View My Favorite Disney:</p>
         <Link
           to={`/about/hobbies/disney-fan/favorite-characters#fav-characters`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Characters
+          Characters
         </Link>
         <Link
           to={`/about/hobbies/disney-fan/favorite-animated-movies#fav-animated-movies`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Animated Movies
+          Animated Movies
         </Link>
         <Link
           to={`/about/hobbies/disney-fan/favorite-non-animated-movies#fav-non-animated-movies`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Non-Animated Movies
+          Non-Animated Movies
         </Link>
         <Link
           to={`/about/hobbies/disney-fan/favorite-attractions#fav-attractions`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Attractions
+          Attractions
         </Link>
       </nav>
 

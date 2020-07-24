@@ -10,24 +10,26 @@ function Sports() {
     <div className="hobby-section" id="sports">
       <h1 className="sub-header">Sports</h1>
 
-      <nav className="sports-links">
+      <nav className="disney-sports-traveling-links">
+        <p className="view-my">View My Favorite Sports:</p>
+
         <Link
           to={`/about/hobbies/sports/favorite-teams#fav-sports-teams`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Sports Teams
+          Teams
         </Link>
         <Link
           to={`/about/hobbies/sports/favorite-memories#fav-sports-memories`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Sports Memories
+          Memories
         </Link>
         <Link
           to={`/about/hobbies/sports/favorite-movies#fav-sports-movies`}
-          className="disney-fan-link"
+          className="disney-sports-traveling-link"
         >
-          Favorite Sports Movies
+          Movies
         </Link>
       </nav>
 

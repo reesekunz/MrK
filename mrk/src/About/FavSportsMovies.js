@@ -5,7 +5,15 @@ function FavSportsMovies() {
   return (
     <div className="fav-sports-movies-container" id="fav-sports-movies">
       <h2>Favorite Sports Movies:</h2>
-      <h3>Baseball ⚾</h3>
+      <div className="emoji-links">
+        <span className="emoji">⚾</span>
+        <span className="emoji">🏀</span>
+        <span className="emoji">🏈</span>
+      </div>
+      <h3>
+        {" "}
+        <span className="emoji">⚾</span>
+      </h3>
       <ul>
         <li>"Field of Dreams"</li>
         <li> "Pride of the Yankees"</li>
@@ -13,7 +21,9 @@ function FavSportsMovies() {
         <li> "The Sandlot"</li>
         <li> "The Natural"</li>
       </ul>
-      <h3>Basketball 🏀</h3>
+      <h3>
+        <span className="emoji">🏀</span>{" "}
+      </h3>
       <ul>
         <li> "Hoosiers"</li>
         <li> "Space Jam"</li>
@@ -21,7 +31,9 @@ function FavSportsMovies() {
         <li> "Finding Forester"</li>
         <li> "Coach Carter"</li>
       </ul>
-      <h3>Football 🏈</h3>
+      <h3>
+        <span className="emoji"> 🏈</span>
+      </h3>
       <ul>
         <li> "Remember the Titans"</li>
         <li> "Invincible"</li>
