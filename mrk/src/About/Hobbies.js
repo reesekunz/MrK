@@ -7,7 +7,7 @@ import Traveling from "./Traveling";
 
 function Hobbies() {
   return (
-    <div className="hobbies-container">
+    <div className="hobbies-container" id="hobbies">
       <h1 className="about-sub-header">Hobbies</h1>
       <nav className="hobby-tabs">
         <Link to={`/about/hobbies/disney-fan`} className="hobbies-link">

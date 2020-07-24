@@ -3,7 +3,7 @@ import "./Education.scss";
 
 function Education() {
   return (
-    <div className="education-container">
+    <div className="education-container" id="education">
       <h1 className="about-sub-header">Education</h1>
       <p>
         Attended Elementary School in Massapequa, New York and Phoenix, Arizona

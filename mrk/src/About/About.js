@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import DadsHeadshot from "../images/DadsHeadshot.png";
 import Hamburger from "../util/Hamburger";
 import Education from "./Education";
@@ -9,6 +9,8 @@ import Hobbies from "./Hobbies";
 import { IoMdSchool } from "react-icons/io";
 import { GrWorkshop } from "react-icons/gr";
 import { AiOutlineSmile } from "react-icons/ai";
+// import { animateScroll as scroll } from "react-scroll";
+import { HashLink as Link } from "react-router-hash-link";
 
 function About() {
   return (
@@ -22,15 +24,22 @@ function About() {
       />
 
       <nav className="about-links">
-        <Link to={`/about/education`} className="about-link">
+        <Link
+          to={`/about/education#education`}
+          className="about-link"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           Education
           <IoMdSchool size={35} />
         </Link>
-        <Link to={`/about/experience`} className="about-link">
+        <Link to={`/about/experience#experience`} className="about-link">
           Experience
           <GrWorkshop size={35} color="white" />
         </Link>
-        <Link to={`/about/hobbies/disney-fan`} className="about-link">
+        <Link to={`/about/hobbies#hobbies`} className="about-link">
           Hobbies
           <AiOutlineSmile size={35} />
         </Link>
