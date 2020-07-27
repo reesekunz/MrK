@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hobbies";
+import Avatar from "../images/Avatar.jpg";
 
 function FavAttractions() {
   return (
@@ -18,6 +19,12 @@ function FavAttractions() {
         I haven't been to Star Wars Galaxy Edge, yet.... I also haven't been
         able to ride Slinky Dog Dash, yet......
       </p>
+      <div className="img-wrapper">
+        <img src={Avatar} className="rafiki-img" alt="Avatar" />
+        <p className="img-caption">
+          Pandora - The World of Avatar at Disney's Animal Kingdom
+        </p>
+      </div>
     </div>
   );
 }

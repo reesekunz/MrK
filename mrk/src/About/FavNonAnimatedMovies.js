@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hobbies";
+import NationalTreasure from "../images/NationalTreasure.jpeg";
 
 function FavNonAnimatedMovies() {
   return (
@@ -15,6 +16,17 @@ function FavNonAnimatedMovies() {
         <li> "The Rookie"</li>
         <li> "National Treasure"</li>
       </ul>
+      <div className="img-wrapper">
+        <img
+          src={NationalTreasure}
+          className="rafiki-img"
+          alt="National Treasure"
+        />
+        <p className="img-caption">
+          "Those who have the ability to take action have the responsibility to
+          take action."
+        </p>
+      </div>
     </div>
   );
 }

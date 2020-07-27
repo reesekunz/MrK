@@ -193,6 +193,7 @@
       height: 400px;
       width: 400px;
       border: 1px solid black;
+      box-shadow: 1px 1px 1px black;
       @media (max-width: 500px) {
         height: 250px;
         width: 250px;
@@ -200,7 +201,9 @@
     }
     .img-caption {
       margin: 0;
+      padding-top: 1%;
       font-size: 14px;
+      width: 400px;
     }
   }
   @media (max-width: 500px) {
@@ -212,7 +215,7 @@
     // border: 1px solid black;
     justify-content: flex-start;
     align-items: center;
-    
+
     .disney-sports-traveling-link {
       color: blue;
       margin-left: 2.5%;

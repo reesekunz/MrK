@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hobbies";
+import ToyStory from "../images/ToyStory.jpeg";
 
 function FavAnimatedMovies() {
   return (
@@ -18,6 +19,10 @@ function FavAnimatedMovies() {
         <li> "Mulan"</li>
         <li> "Cars"</li>
       </ul>
+      <div className="img-wrapper">
+        <img src={ToyStory} className="rafiki-img" alt="Toy Story" />
+        <p className="img-caption">To infinity and beyond!</p>
+      </div>
     </div>
   );
 }
