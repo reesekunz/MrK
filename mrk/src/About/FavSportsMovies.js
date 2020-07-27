@@ -1,46 +1,49 @@
 import React from "react";
 import "./Hobbies";
+import { Route } from "react-router-dom";
+
+import { HashLink as Link } from "react-router-hash-link";
+import Baseball from "./FavSportsMovies/Baseball";
+import Basketball from "./FavSportsMovies/Basketball";
+import Football from "./FavSportsMovies/Football";
 
 function FavSportsMovies() {
   return (
     <div className="fav-sports-movies-container" id="fav-sports-movies">
       <h2>Favorite Sports Movies:</h2>
       <div className="emoji-links">
-        <span className="emoji">⚾</span>
-        <span className="emoji">🏀</span>
-        <span className="emoji">🏈</span>
+        View By Sport:
+        <Link
+          to={`/about/hobbies/sports/favorite-movies/baseball#baseball`}
+          className="emoji-link"
+        >
+          <span className="emoji">⚾</span>
+        </Link>
+        <Link
+          to={`/about/hobbies/sports/favorite-movies/basketball#basketball`}
+          className="emoji-link"
+        >
+          <span className="emoji">🏀</span>
+        </Link>
+        <Link
+          to={`/about/hobbies/sports/favorite-movies/football#football`}
+          className="emoji-link"
+        >
+          <span className="emoji">🏈</span>
+        </Link>
       </div>
-      <h3>
-        {" "}
-        <span className="emoji">⚾</span>
-      </h3>
-      <ul>
-        <li>"Field of Dreams"</li>
-        <li> "Pride of the Yankees"</li>
-        <li> "Bull Durham"</li>
-        <li> "The Sandlot"</li>
-        <li> "The Natural"</li>
-      </ul>
-      <h3>
-        <span className="emoji">🏀</span>{" "}
-      </h3>
-      <ul>
-        <li> "Hoosiers"</li>
-        <li> "Space Jam"</li>
-        <li> "One on One"</li>
-        <li> "Finding Forester"</li>
-        <li> "Coach Carter"</li>
-      </ul>
-      <h3>
-        <span className="emoji"> 🏈</span>
-      </h3>
-      <ul>
-        <li> "Remember the Titans"</li>
-        <li> "Invincible"</li>
-        <li> "Jerry Maguire"</li>
-        <li> "The Blind Side"</li>
-        <li> "Draft Day"</li>
-      </ul>
+      <Route
+        path="/about/hobbies/sports/favorite-movies/baseball"
+        component={Baseball}
+      />
+      <Route
+        path="/about/hobbies/sports/favorite-movies/basketball"
+        component={Basketball}
+      />
+      <Route
+        path="/about/hobbies/sports/favorite-movies/football"
+        component={Football}
+      />
     </div>
   );
 }

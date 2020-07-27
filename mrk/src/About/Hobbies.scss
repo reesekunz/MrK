@@ -183,15 +183,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 3%;
     @media (max-width: 500px) {
       margin-top: 15%;
       margin-bottom: 15%;
     }
     .rafiki-img {
-      height: 400px;
-      width: 400px;
+      height: 300px;
+      width: 300px;
       border: 1px solid black;
       box-shadow: 1px 1px 1px black;
       @media (max-width: 500px) {
@@ -203,7 +203,7 @@
       margin: 0;
       padding-top: 1%;
       font-size: 14px;
-      width: 400px;
+      width: 300px;
     }
   }
   @media (max-width: 500px) {
@@ -228,5 +228,17 @@
   }
   .emoji {
     font-size: 40px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .emoji-links {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .emoji-link {
+    text-decoration: none;
+  }
+  .sport-container {
+    margin-top: 5%;
   }
 }
