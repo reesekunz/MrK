@@ -1,5 +1,6 @@
 import React from "react";
 import "../Hobbies.scss";
+import Suns from "../../images/Suns.jpeg";
 
 function Basketball() {
   return (
@@ -10,6 +11,10 @@ function Basketball() {
         <li>Phoenix Suns</li>
         <li>San Antonio Spurs </li>
       </ul>
+      <div className="img-wrapper">
+        <img src={Suns} className="rafiki-img" alt="Suns" />
+        <p className="img-caption">Picture by ClutchPoints</p>
+      </div>
     </div>
   );
 }

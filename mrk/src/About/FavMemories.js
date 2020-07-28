@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hobbies";
+import Gonzo from "../images/Gonzo.jpeg";
 
 function FavSportsMemories() {
   return (
@@ -11,6 +12,14 @@ function FavSportsMemories() {
         <li>My mom to Game 6 and...</li>
         <li>My wife to Game 7!</li>
       </ul>
+      <div className="img-wrapper">
+        <img
+          src={Gonzo}
+          className="rafiki-img"
+          alt="Luis Gonzalez walk off hit"
+        />
+        <p className="img-caption">Luis Gonzalez' walk off hit in Game 7</p>
+      </div>
       <h3>
         {" "}
         Volunteering at the 2011 Baseball All-Star Game Fan Festival and working

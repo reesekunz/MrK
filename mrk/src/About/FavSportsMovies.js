@@ -7,6 +7,7 @@ import Baseball from "./FavSportsMovies/Baseball";
 import Basketball from "./FavSportsMovies/Basketball";
 import Football from "./FavSportsMovies/Football";
 
+
 function FavSportsMovies() {
   return (
     <div className="fav-sports-movies-container" id="fav-sports-movies">
