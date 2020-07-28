@@ -14,7 +14,7 @@ function DisneyFan() {
       <p>
         I've been to Disneyland about 200 times. Also got to visit Disney World
         many times while working in Florida. In fact, in April 2019, I visited
-        all for Disney World Parks (Magic Kingdom, EPCOT, Disney Studios, and
+        all four Disney World Parks (Magic Kingdom, EPCOT, Disney Studios, and
         Animal Kingdom) in one day!
       </p>
 

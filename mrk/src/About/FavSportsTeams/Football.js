@@ -4,19 +4,19 @@ import Steelers from "../../images/Steelers.jpeg";
 
 function Football() {
   return (
-    <div className="sport-container" id="football">
-      <span className="emoji">🏈</span>
+    <div className="fav-characters-container" id="football">
+      <div className="disney-content">
+        <span className="emoji">🏈</span>
 
-      <ul>
-        <li>Pittsburgh Steelers</li>
-        <li>Arizona Cardinals</li>
-        <li>Whomever is playing the Cowboys</li>
-      </ul>
+        <ul>
+          <li>Pittsburgh Steelers</li>
+          <li>Arizona Cardinals</li>
+          <li>Whomever is playing the Cowboys</li>
+        </ul>
+      </div>
+
       <div className="img-wrapper">
         <img src={Steelers} className="rafiki-img" alt="Pittsburgh Steelers" />
-        <p className="img-caption">
-          Steelers fans waving their Terrible Towels
-        </p>
       </div>
     </div>
   );

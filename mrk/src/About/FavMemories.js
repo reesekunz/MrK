@@ -5,20 +5,23 @@ import Gonzo from "../images/Gonzo.jpeg";
 function FavSportsMemories() {
   return (
     <div className="fav-sports-memories-container" id="fav-sports-memories">
-      <h2>Favorite Sports Memories:</h2>
-      <h3> Getting to go to Games 2, 6, and 7 of the 2001 World Series</h3>
-      <ul>
-        <li>Took my oldest son to Game 2...</li>
-        <li>My mom to Game 6 and...</li>
-        <li>My wife to Game 7!</li>
-      </ul>
-      <div className="img-wrapper">
-        <img
-          src={Gonzo}
-          className="rafiki-img"
-          alt="Luis Gonzalez walk off hit"
-        />
-        <p className="img-caption">Luis Gonzalez' walk off hit in Game 7</p>
+      <div className="flex-wrapper">
+        <div className="left-side">
+          <h2>Favorite Sports Memories:</h2>
+          <h3> Getting to go to Games 2, 6, and 7 of the 2001 World Series</h3>
+          <ul>
+            <li>Took my oldest son to Game 2...</li>
+            <li>My mom to Game 6 and...</li>
+            <li>My wife to Game 7!</li>
+          </ul>
+        </div>
+        <div className="img-wrapper">
+          <img
+            src={Gonzo}
+            className="rafiki-img"
+            alt="Luis Gonzalez walk off hit"
+          />
+        </div>
       </div>
       <h3>
         {" "}

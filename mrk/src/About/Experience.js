@@ -14,7 +14,7 @@ function Experience() {
       <p>
         Have taught in a variety of places, mostly in Phoenix, AZ, but also
         Kissimmee, Florida (right next door to Disney World). I even have two
-        years of teaching online.
+        years experience of teaching online.
       </p>
       <p>Currently certified to teach in five different states!</p>
     </div>

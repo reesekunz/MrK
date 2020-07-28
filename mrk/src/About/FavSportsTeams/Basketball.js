@@ -4,16 +4,17 @@ import Suns from "../../images/Suns.jpeg";
 
 function Basketball() {
   return (
-    <div className="sport-container" id="basketball">
-      <span className="emoji">🏀</span>
+    <div className="fav-characters-container" id="basketball">
+      <div className="disney-content">
+        <span className="emoji">🏀</span>
 
-      <ul>
-        <li>Phoenix Suns</li>
-        <li>San Antonio Spurs </li>
-      </ul>
+        <ul>
+          <li>Phoenix Suns</li>
+          <li>San Antonio Spurs </li>
+        </ul>
+      </div>
       <div className="img-wrapper">
         <img src={Suns} className="rafiki-img" alt="Suns" />
-        <p className="img-caption">Picture by ClutchPoints</p>
       </div>
     </div>
   );
