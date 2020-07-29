@@ -8,6 +8,12 @@ function SocialStudies() {
     <div className="social-studies-container">
       <Hamburger />
       <h3 className="subject-header">Social Studies</h3>
+      <div className="question">
+        {/* Question?&nbsp; */}
+        <a className="question-link" href="/contact">
+          Contact Mr. Kunz{" "}
+        </a>
+      </div>
       <div className="quote-wrapper">
         <p className="social-studies-quote">
           "Veni, vidi, vici." - Julius Caesar{" "}
