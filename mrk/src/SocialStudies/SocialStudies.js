@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialStudies.scss";
-
+import { Route, Link } from "react-router-dom";
 import Hamburger from "../util/Hamburger";
 
 function SocialStudies() {
@@ -22,64 +22,81 @@ function SocialStudies() {
       <div className="content-wrapper">
         <div className="row">
           {/* Current Topic */}
-          <div className="box">
-            <h2 className="box-header">Current Topic</h2>
-            <img
-              className="box-img"
-              src="https://img.icons8.com/dusk/64/000000/classroom.png"
-            />
-          </div>
+
+          {/* <IoMdSchool size={35} /> */}
+          <Link to={`/current-topic`} className="box">
+            <div>
+              <h2 className="box-header">Current Topic</h2>
+              <img
+                className="box-img"
+                src="https://img.icons8.com/dusk/64/000000/classroom.png"
+              />
+            </div>
+          </Link>
           {/* Projects */}
-          <div className="box">
-            {" "}
-            <h2 className="box-header">Projects</h2>
-            <img
-              className="box-img"
-              // src="https://img.icons8.com/dusk/64/000000/group-of-projects.png"
-              src="https://img.icons8.com/dusk/64/000000/paper-plane.png"
-            />
-            {/* <img src="https://img.icons8.com/color/48/000000/project-management.png" />{" "} */}
-          </div>
+          <Link to={`/projects`} className="box">
+            <div>
+              {" "}
+              <h2 className="box-header">Projects</h2>
+              <img
+                className="box-img"
+                // src="https://img.icons8.com/dusk/64/000000/group-of-projects.png"
+                src="https://img.icons8.com/dusk/64/000000/paper-plane.png"
+              />
+              {/* <img src="https://img.icons8.com/color/48/000000/project-management.png" />{" "} */}
+            </div>
+          </Link>
+
           {/* Key Vocab Terms */}
-          <div className="box">
-            {" "}
-            <h2 className="box-header">Vocabulary Terms</h2>
-            <img
-              className="box-img"
-              src="https://img.icons8.com/cotton/64/000000/marker-pen.png"
-            />{" "}
-          </div>
+          <Link to={`/vocabulary`} className="box">
+            <div>
+              {" "}
+              <h2 className="box-header">Vocabulary Terms</h2>
+              <img
+                className="box-img"
+                src="https://img.icons8.com/cotton/64/000000/marker-pen.png"
+              />{" "}
+            </div>
+          </Link>
         </div>
         <div className="row">
           {/* Assignments */}
-          <div className="box">
-            {" "}
-            <h2 className="box-header">Assignments</h2>
-            <img
-              className="box-img"
-              // src="https://img.icons8.com/clouds/100/000000/school.png"
-              src="https://img.icons8.com/bubbles/100/000000/school.png"
-              src="https://img.icons8.com/plasticine/100/000000/school.png"
-              src="https://img.icons8.com/doodle/48/000000/books.png"
-            />
-          </div>
+          <Link to={`/assignments`} className="box">
+            <div>
+              {" "}
+              <h2 className="box-header">Assignments</h2>
+              <img
+                className="box-img"
+                // src="https://img.icons8.com/clouds/100/000000/school.png"
+                src="https://img.icons8.com/bubbles/100/000000/school.png"
+                src="https://img.icons8.com/plasticine/100/000000/school.png"
+                src="https://img.icons8.com/doodle/48/000000/books.png"
+              />
+            </div>
+          </Link>
+
           {/* Upcoming Assessments */}
-          <div className="box">
-            <h2 className="box-header">Assessments</h2>
-            <img
-              className="box-img"
-              src="https://img.icons8.com/dusk/64/000000/exam.png"
-            />{" "}
-          </div>
+          <Link to={`/assessments`} className="box">
+            <div>
+              <h2 className="box-header">Assessments</h2>
+              <img
+                className="box-img"
+                src="https://img.icons8.com/dusk/64/000000/exam.png"
+              />{" "}
+            </div>
+          </Link>
+
           {/* I.X.L. */}
-          <div className="box">
-            {" "}
-            <h2 className="box-header">I.X.L.</h2>
-            <img
-              className="box-img"
-              src="https://img.icons8.com/dusk/64/000000/e-learning.png"
-            />{" "}
-          </div>
+          <Link to={`/ixl`} className="box">
+            <div>
+              {" "}
+              <h2 className="box-header">I.X.L.</h2>
+              <img
+                className="box-img"
+                src="https://img.icons8.com/dusk/64/000000/e-learning.png"
+              />{" "}
+            </div>
+          </Link>
         </div>
       </div>
       <div className="icon-credit">
