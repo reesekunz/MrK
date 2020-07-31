@@ -3,16 +3,16 @@
 
   .subjects-container {
     display: flex;
-    border: 1px solid red;
+    // border: 1px solid red;
     margin-top: 125px;
     margin-left: 5%;
     margin-right: 5%;
 
     .subject-wrapper {
       width: 14.15%;
-      border: 1px solid red;
+      border: 1px solid black;
       .subject-img-wrapper {
-        border: 1px solid teal;
+        // border: 1px solid teal;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -23,18 +23,21 @@
       }
       .subject-header {
         font-size: 20px;
+        // border: 1px solid red;
+        height: 50px;
       }
       .chapter-links {
         display: flex;
         flex-direction: column;
         text-align: left;
-        border: 1px solid gold;
-
+        // border: 1px solid gold;
+        padding-left: 5px;
+        padding-right: 5px;
         .chapter-link {
           // text-decoration: none;
           color: black;
-          margin-top: 5%;
-          margin-bottom: 5%;
+          margin-top: 2.5%;
+          margin-bottom: 7.5%;
         }
       }
     }
