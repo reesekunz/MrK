@@ -1,0 +1,42 @@
+.vocab-container {
+  border: 1px solid black;
+
+  .subjects-container {
+    display: flex;
+    border: 1px solid red;
+    margin-top: 125px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    .subject-wrapper {
+      width: 14.15%;
+      border: 1px solid red;
+      .subject-img-wrapper {
+        border: 1px solid teal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .subject-img {
+          // height: 200px;
+        }
+      }
+      .subject-header {
+        font-size: 20px;
+      }
+      .chapter-links {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        border: 1px solid gold;
+
+        .chapter-link {
+          // text-decoration: none;
+          color: black;
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+      }
+    }
+  }
+}

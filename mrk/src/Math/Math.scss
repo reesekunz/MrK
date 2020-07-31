@@ -18,15 +18,14 @@
       text-decoration: none;
       // color: #1f75fe;
       color: white;
-      border: 1px solid #1f75fe;
       padding: 1%;
       background: black;
 
       border-radius: 5px;
-      box-shadow: 1px 1px 5px blue;
+      border: 2.5px solid #1f75fe;
       &:hover {
         // transform: scale(1.1);
-        box-shadow: 1px 1px 20px blue;
+        box-shadow: 1px 1px 10px blue;
       }
     }
   }
