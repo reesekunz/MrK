@@ -14,6 +14,13 @@ import Vocab from "./SocialStudies/Vocab";
 import Assignments from "./SocialStudies/Assignments";
 import Assessments from "./SocialStudies/Assesments";
 import IXL from "./SocialStudies/IXL";
+import Unit1 from "./SocialStudies/Vocabulary/Unit1";
+import Unit2 from "./SocialStudies/Vocabulary/Unit2";
+import Unit3 from "./SocialStudies/Vocabulary/Unit3";
+import Unit4 from "./SocialStudies/Vocabulary/Unit4";
+import Unit5 from "./SocialStudies/Vocabulary/Unit5";
+import Unit6 from "./SocialStudies/Vocabulary/Unit6";
+import Unit7 from "./SocialStudies/Vocabulary/Unit7";
 
 function App() {
   return (
@@ -31,6 +38,13 @@ function App() {
       <Route path="/assignments" component={Assignments} />
       <Route path="/assessments" component={Assessments} />
       <Route path="/ixl" component={IXL} />{" "}
+      <Route path="/unit1" component={Unit1} />{" "}
+      <Route path="/unit2" component={Unit2} />{" "}
+      <Route path="/unit3" component={Unit3} />{" "}
+      <Route path="/unit4" component={Unit4} />{" "}
+      <Route path="/unit5" component={Unit5} />{" "}
+      <Route path="/unit6" component={Unit6} />{" "}
+      <Route path="/unit7" component={Unit7} />{" "}
     </div>
   );
 }

@@ -1,16 +1,38 @@
 .vocab-container {
-  border: 1px solid black;
-
+  // border: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-size: 35px;
+      font-family: "Alike Angular", serif;
+    }
+  }
   .subjects-container {
     display: flex;
     // border: 1px solid red;
-    margin-top: 125px;
+    margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
 
     .subject-wrapper {
       width: 14.15%;
-      border: 1px solid black;
+      border: 1px dotted black;
+      background: #f5f5f5;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      // box-shadow: 1px 1px 5px black;
+      // box-shadow: 1px 1px 1px black;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        box-shadow: 2px 2px 5px black;
+        cursor: pointer;
+      }
+
       .subject-img-wrapper {
         // border: 1px solid teal;
         display: flex;
@@ -25,19 +47,26 @@
         font-size: 20px;
         // border: 1px solid red;
         height: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: "Alike Angular", serif;
+        // text-align: left;
       }
       .chapter-links {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: left;
         // border: 1px solid gold;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
         .chapter-link {
           // text-decoration: none;
           color: black;
           margin-top: 2.5%;
           margin-bottom: 7.5%;
+          font-size: 16px;
+          // font-weight: bold;
         }
       }
     }
