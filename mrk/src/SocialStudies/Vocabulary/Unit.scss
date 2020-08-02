@@ -1,0 +1,92 @@
+.unit-container {
+  //   border: 1px solid black;
+  margin-bottom: 5%;
+
+  .unit-wrapper {
+    // border: 1px solid red;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .unit-subject-img {
+    // border: 1px solid black;
+  }
+  .subject-header {
+    font-family: "Alike Angular", serif;
+    font-size: 25px;
+  }
+  .chapters-wrappers {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .chapter-links {
+      //   border: 1px solid red;
+      font-family: "Roboto", sans-serif;
+
+      .chapter-link {
+        // margin-left: 1%;
+        // margin-right: 1%;
+        // border: 1px solid black;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color: black;
+
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+}
+
+.chapter-container {
+  // border: 1px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  .chapter-header {
+    display: flex;
+    font-size: 30px;
+    // border: 1px solid red;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+  }
+  .vocab-term-wrapper {
+    // border: 1px dotted gray;
+    // margin-left: 5%;
+    // margin-right: 5%;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+    font-size: 18px;
+    .vocab-term-header {
+      // font-size: 20px;
+      background: #ff4141;
+    }
+    #chapter2 {
+      background: orange;
+    }
+    #chapter3 {
+      background: yellow;
+    }
+    #chapter3b {
+      background: pink;
+    }
+    #chapter5 {
+      background: turquoise;
+    }
+
+    .definition {
+      // font-size: 20px;
+      text-align: left;
+      margin-left: 5px;
+    }
+  }
+  .pillars-header {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+}
