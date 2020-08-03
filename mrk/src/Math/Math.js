@@ -49,6 +49,12 @@ function MathPage() {
           </div>
         </div>
       </div>
+      <div className="mobile-contact-wrapper">
+        Question? &nbsp;
+        <a href="/contact" className="mobile-contact-link">
+          Contact Mr. Kunz
+        </a>
+      </div>
       <div className="icon-credit">
         Icons by: &nbsp;
         <a
