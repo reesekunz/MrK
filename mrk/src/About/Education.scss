@@ -35,6 +35,10 @@
     .education-img-wrapper {
       margin-top: -100px;
       width: 30%;
+      @media (max-width: 800px) {
+        // border: 1px solid red;
+        display: none;
+      }
       .lopes-up {
         height: 400px;
       }
