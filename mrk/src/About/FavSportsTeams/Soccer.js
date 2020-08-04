@@ -1,6 +1,6 @@
 import React from "react";
 import "../Hobbies.scss";
-import USAWomens from "../../images/USAWomens.jpeg";
+import USA from "../../images/USA.png";
 
 function Soccer() {
   return (
@@ -17,8 +17,9 @@ function Soccer() {
 
       <div className="img-wrapper">
         <img
-          src={USAWomens}
+          src={USA}
           className="rafiki-img"
+          id="sports-team"
           alt="USA Womens National Soccer Team"
         />
       </div>

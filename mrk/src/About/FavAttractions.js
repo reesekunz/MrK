@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hobbies";
-import HauntedMansion from "../images/HauntedMansion.jpeg";
+import Safari from "../images/Safari.png";
 
 function FavAttractions() {
   return (
@@ -23,9 +23,10 @@ function FavAttractions() {
       </div>
       <div className="img-wrapper">
         <img
-          src={HauntedMansion}
+          src={Safari}
           className="rafiki-img"
-          alt="Haunted Mansion"
+          id="safari"
+          alt="Disney Safari"
         />
       </div>
     </div>

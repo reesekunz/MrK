@@ -1,6 +1,6 @@
 import React from "react";
 import "../Hobbies.scss";
-import Capitals from "../../images/Capitals.jpeg";
+import Yotes from "../../images/Yotes.png";
 
 function Hockey() {
   return (
@@ -10,12 +10,17 @@ function Hockey() {
 
         <ul>
           <li>Washington Capitals</li>
-          <li>Phoenix Coyotes</li>
+          <li>Arizona Coyotes</li>
         </ul>
       </div>
 
       <div className="img-wrapper">
-        <img src={Capitals} className="rafiki-img" alt="Washington Capitals" />
+        <img
+          src={Yotes}
+          className="rafiki-img"
+          alt="Arizona Coyotes logo"
+          id="sports-team"
+        />
       </div>
     </div>
   );

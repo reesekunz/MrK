@@ -1,6 +1,6 @@
 import React from "react";
 import "../Hobbies.scss";
-import Nats from "../../images/Nats.jpeg";
+import Nats from "../../images/Nats.png";
 
 function Baseball() {
   return (
@@ -16,7 +16,12 @@ function Baseball() {
         </ul>
       </div>
       <div className="img-wrapper">
-        <img src={Nats} className="rafiki-img" alt="Washington Nationals" />
+        <img
+          src={Nats}
+          className="rafiki-img"
+          id="sports-team"
+          alt="Washington Nationals"
+        />
       </div>
     </div>
   );

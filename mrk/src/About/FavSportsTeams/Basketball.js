@@ -1,6 +1,6 @@
 import React from "react";
 import "../Hobbies.scss";
-import Suns from "../../images/Suns.jpeg";
+import Suns from "../../images/Suns.png";
 
 function Basketball() {
   return (
@@ -14,7 +14,7 @@ function Basketball() {
         </ul>
       </div>
       <div className="img-wrapper">
-        <img src={Suns} className="rafiki-img" alt="Suns" />
+        <img src={Suns} className="rafiki-img" id="sports-team" alt="Suns" />
       </div>
     </div>
   );

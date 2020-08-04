@@ -6,7 +6,9 @@ function Baseball() {
   return (
     <div className="fav-characters-container" id="baseball">
       <div className="disney-content">
-        <span className="emoji">⚾</span>
+        <span className="emoji" id="sport-emoji">
+          ⚾
+        </span>
 
         <ul>
           <li>"Field of Dreams"</li>
