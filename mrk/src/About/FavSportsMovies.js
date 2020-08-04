@@ -7,13 +7,12 @@ import Baseball from "./FavSportsMovies/Baseball";
 import Basketball from "./FavSportsMovies/Basketball";
 import Football from "./FavSportsMovies/Football";
 
-
 function FavSportsMovies() {
   return (
     <div className="fav-sports-movies-container" id="fav-sports-movies">
       <h2>Favorite Sports Movies:</h2>
       <div className="emoji-links">
-        View By Sport:
+        <div className="view-by-sport">View By Sport:</div>
         <Link
           to={`/about/hobbies/sports/favorite-movies/baseball#baseball`}
           className="emoji-link"

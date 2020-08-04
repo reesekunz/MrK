@@ -161,9 +161,9 @@
     padding-bottom: 10px;
     padding-top: 10px;
     @media (max-width: 500px) {
-      // border: 1px solid black;
       margin-left: 50px;
       margin-right: 50px;
+      margin-bottom: 50px;
     }
   }
   .sub-header {
@@ -267,15 +267,29 @@
     }
   }
   .emoji-links {
+    display: flex;
     justify-content: flex-start;
     align-items: center;
+
     @media (max-width: 500px) {
-      border: 1px solid red;
+      // border: 1px solid red;
       margin-bottom: 50px;
+      justify-content: space-evenly;
+    }
+    .view-by-sport {
+      @media (max-width: 500px) {
+        display: none;
+      }
     }
   }
   .emoji-link {
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    @media (max-width: 500px) {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
   }
 
   .sport-container {
@@ -294,7 +308,7 @@
   #sports-team {
     width: 300px;
     border: none;
-    @media (max-width: 500px) {
+    @media (max-width: 800px) {
       width: 250px;
     }
   }
@@ -351,28 +365,9 @@
 }
 
 .fav-sports-memories-container {
-  .flex-wrapper {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    height: 250px;
-    .left-side {
-      width: 60%;
-      margin: 0;
-      padding: 0;
+  li {
+    @media (max-width: 500px) {
+      font-size: 18px;
     }
-    .img-wrapper {
-      width: 40%;
-      display: flex;
-      align-items: flex-start;
-      margin-top: 80px;
-      margin-left: 0px;
-      .rafiki-img {
-        height: 270px;
-      }
-    }
-  }
-  h3 {
-    margin-top: 0;
   }
 }

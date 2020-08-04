@@ -14,7 +14,7 @@ function FavSportsTeams() {
     <div className="fav-sports-teams-container" id="fav-sports-teams">
       <h2>Favorite Sports Teams:</h2>
       <div className="emoji-links">
-        View By Sport:
+        <div className="view-by-sport">View By Sport:</div>
         <Link
           to={`/about/hobbies/sports/favorite-teams/baseball#baseball`}
           className="emoji-link"
