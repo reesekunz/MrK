@@ -15,6 +15,13 @@ function Events() {
           </h3>
           <h5 className="date">August 12</h5>
         </div>
+        {/* Back to School Night */}
+        <div className="event-wrapper">
+          <h3 className="title">
+            <div className="event">Back to School Night</div>
+          </h3>
+          <h5 className="date">August 19</h5>
+        </div>
         {/* Labor Day (No School) */}
         <div className="event-wrapper">
           <h3 className="title">
@@ -29,7 +36,13 @@ function Events() {
           </h3>
           <h5 className="date">October 9</h5>
         </div>
-
+        {/* Parent Conferences */}
+        <div className="event-wrapper">
+          <h3 className="title">
+            <div className="event">Parent Conferences</div>
+          </h3>
+          <h5 className="date">October 15</h5>
+        </div>
         {/* Veteran's Day (No School) */}
         <div className="event-wrapper">
           <h3 className="title">
@@ -79,6 +92,13 @@ function Events() {
           </h3>
           <h5 className="date">February 15</h5>
         </div>
+        {/* Parent Conferences */}
+        <div className="event-wrapper">
+          <h3 className="title">
+            <div className="event">Parent Conferences</div>
+          </h3>
+          <h5 className="date">March 18</h5>
+        </div>
         {/* Spring Break */}
         <div className="event-wrapper">
           <h3 className="title">
@@ -93,12 +113,12 @@ function Events() {
           </h3>
           <h5 className="date">May 31</h5>
         </div>
-        {/* Middle School Promotion */}
+        {/* 8th Grade Promotion */}
         <div className="event-wrapper">
           <h3 className="title">
-            <div className="event">Middle School Promotion</div>
+            <div className="event">8th Grade Promotion</div>
           </h3>
-          <h5 className="date">Early June</h5>
+          <h5 className="date">June 3</h5>
         </div>
       </div>
     </div>

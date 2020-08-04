@@ -185,6 +185,10 @@
       margin-bottom: 40px;
       font-size: 20px;
     }
+    @media (max-width: 600px) {
+      margin-top: 50px;
+      margin-bottom: 150px;
+    }
     .mobile-contact-link {
       @media (max-width: 1000px) {
         text-decoration: none;
