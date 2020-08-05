@@ -9,6 +9,22 @@ function Unit2() {
   return (
     <div className="unit-container">
       <Hamburger />
+      <div className="jump-to-wrapper-both">
+        <Link to={`/unit1`} className="jump-to-link">
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-left.png"
+            className="jump-to-arrow"
+          />
+          Unit 1: Rome and Byzantium
+        </Link>
+        <Link to={`/unit3`} className="jump-to-link">
+          Unit 3: Sub-Saharan Africa
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"
+            className="jump-to-arrow"
+          />
+        </Link>
+      </div>
       <img
         src="https://img.icons8.com/officel/150/000000/mosque.png"
         className="subject-img"

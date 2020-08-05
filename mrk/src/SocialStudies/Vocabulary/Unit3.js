@@ -9,6 +9,22 @@ function Unit3() {
   return (
     <div className="unit-container">
       <Hamburger />
+      <div className="jump-to-wrapper-both">
+        <Link to={`/unit2`} className="jump-to-link">
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-left.png"
+            className="jump-to-arrow"
+          />
+          Unit 2: Islamic Civilization
+        </Link>
+        <Link to={`/unit4`} className="jump-to-link">
+          Unit 4: Civilizations in the Americas
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"
+            className="jump-to-arrow"
+          />
+        </Link>
+      </div>
       <img
         src="https://img.icons8.com/color/150/000000/elephant.png"
         className="subject-img"

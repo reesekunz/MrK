@@ -9,6 +9,15 @@ function Unit1() {
   return (
     <div className="unit-container">
       <Hamburger />
+      <div className="jump-to-wrapper-right">
+        <Link to={`/unit2`} className="jump-to-link">
+          Unit 2: Islamic Civilization
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"
+            className="jump-to-arrow"
+          />
+        </Link>
+      </div>
       <div className="unit-wrapper">
         <img
           src="https://img.icons8.com/cotton/150/000000/coliseum--v1.png"

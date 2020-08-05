@@ -10,6 +10,22 @@ function Unit4() {
   return (
     <div className="unit-container">
       <Hamburger />
+      <div className="jump-to-wrapper-both">
+        <Link to={`/unit3`} className="jump-to-link">
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-left.png"
+            className="jump-to-arrow"
+          />
+          Unit 3: Sub-Saharan Africa
+        </Link>
+        <Link to={`/unit5`} className="jump-to-link">
+          Unit 5: East Asia Civilizations
+          <img
+            src="https://img.icons8.com/ios/50/000000/long-arrow-right.png"
+            className="jump-to-arrow"
+          />
+        </Link>
+      </div>
       <img
         src="https://img.icons8.com/cotton/150/000000/chichen-itza--v1.png"
         className="subject-img"
