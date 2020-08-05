@@ -228,6 +228,18 @@
         white-space: nowrap;
       }
     }
+    #chapter7 {
+      background: #ff4141;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
+    }
+    #chapter8 {
+      background: orange;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
+    }
 
     .definition {
       // font-size: 20px;
