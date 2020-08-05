@@ -40,14 +40,15 @@
   .closebtn {
     display: flex;
     justify-content: flex-end;
-    padding-right: 4%;
+    padding-right: 3%;
+    padding-top: 3%;
     .close-x {
     }
   }
 
   .overlay-content {
     position: relative;
-    margin-top: 10%;
+    margin-top: 2.5%;
     width: 100%;
     color: white;
     display: flex;
@@ -64,6 +65,9 @@
       a {
         font-size: 24px;
         font-family: "Alike Angular", serif;
+        @media (max-width: 500px) {
+          font-size: 20px;
+        }
       }
     }
     .eachNav:hover {

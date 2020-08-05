@@ -15,7 +15,7 @@ import { BsChatDots, BsPersonSquare } from "react-icons/bs";
 import { Link } from "react-router-dom";
 function Hamburger() {
   const openNav = () => {
-    document.getElementById("myNav").style.width = "30%";
+    document.getElementById("myNav").style.width = "100%";
     // document.querySelector(".home-container").style.opacity = "20%";
     // document.querySelector(".intro-container").style.opacity = "20%";
   };
@@ -32,7 +32,7 @@ function Hamburger() {
       <div id="myNav" className="overlay" onClick={closeNav}>
         <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
           <div className="close-x">
-            <IoIosCloseCircleOutline size={45} color="white" />
+            <IoIosCloseCircleOutline size={55} color="white" />
           </div>
         </a>
 

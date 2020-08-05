@@ -2,11 +2,11 @@ import React from "react";
 import "./SocialStudies.scss";
 import { Route, Link } from "react-router-dom";
 import Hamburger from "../util/Hamburger";
-
 function SocialStudies() {
   return (
     <div className="social-studies-container">
       <Hamburger />
+
       <h3 className="subject-header">Social Studies</h3>
       <div className="question">
         {/* Question?&nbsp; */}
