@@ -14,6 +14,18 @@
       padding-bottom: 10px;
     }
   }
+  .school-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .school-logo {
+      @media (max-width: 800px) {
+        height: 180px;
+      }
+    }
+  }
   .content {
     font-family: "Roboto", sans-serif;
 
@@ -23,7 +35,9 @@
     justify-content: center;
     // margin-left: 100px;
     margin-left: 12.5%;
-    margin-top: 2.5%;
+    margin-top: 0;
+
+    // margin-top: 2.5%;
     @media (max-width: 1200px) {
       width: 80%;
       margin-left: 10%;

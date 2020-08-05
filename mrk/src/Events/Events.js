@@ -1,12 +1,16 @@
 import React from "react";
 import "./Events.scss";
 import Hamburger from "../util/Hamburger";
+import SchoolLogo from "../images/SchoolLogo.png";
 
 function Events() {
   return (
     <div className="events-container">
       <Hamburger />
       <h3 className="subject-header">School Events</h3>
+      <div className="school-logo-wrapper">
+        <img src={SchoolLogo} alt="School logo" className="school-logo" />
+      </div>
       <div className="content">
         {/* 1st Day of School */}
         <div className="event-wrapper">
