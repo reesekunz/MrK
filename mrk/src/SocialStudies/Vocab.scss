@@ -17,6 +17,12 @@
     margin-left: 5%;
     margin-right: 5%;
 
+    @media (max-width: 1150px) {
+      flex-direction: column;
+      margin: 0;
+      margin-bottom: 150px;
+    }
+
     .subject-wrapper {
       width: 14.15%;
       border: 1px dotted black;
@@ -31,6 +37,16 @@
       &:hover {
         box-shadow: 2px 2px 5px black;
         cursor: pointer;
+      }
+
+      @media (max-width: 1150px) {
+        width: 80%;
+        border-radius: 5px;
+        margin-left: 10%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-shadow: 1px 1px 1px black;
+        padding-bottom: 20px;
       }
 
       .subject-img-wrapper {
@@ -51,6 +67,10 @@
         padding-right: 5px;
         font-family: "Alike Angular", serif;
         // text-align: left;
+
+        @media (max-width: 600px) {
+          font-size: 20px;
+        }
       }
       .chapter-links {
         display: flex;
