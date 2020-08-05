@@ -18,5 +18,14 @@
   }
   .thank-you-message {
     display: none;
+    p {
+      line-height: 0.5;
+      @media (max-width: 1200px) {
+        line-height: 1;
+      }
+      @media (max-width: 500px) {
+        line-height: 1.25;
+      }
+    }
   }
 }
