@@ -20,6 +20,12 @@ function SocialStudies() {
         </p>
       </div>
       <div className="content-wrapper">
+        <p className="intro-message">
+          Welcome to 7th Grade Social Studies. This class is an overview as
+          we'll be traveling back in time (600 BC - the 19th Century) across
+          Asia, Africa, Europe and South America learning about different
+          customs, religions, historical figures and key terms.
+        </p>
         <div className="row">
           {/* Current Topic */}
 
