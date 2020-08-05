@@ -28,16 +28,16 @@ function Unit7() {
       <div className="chapters-wrappers">
         <div className="chapter-links">
           <Link to={`/unit7/chapter17`} className="chapter-link">
-            Chapter 17: The Renaissance
+            CH 17: The Renaissance
           </Link>
           <Link to={`/unit7/chapter18`} className="chapter-link">
-            Chapter 18: The Reformation
+            CH 18: The Reformation
           </Link>
           <Link to={`/unit7/chapter19`} className="chapter-link">
-            Chapter 19: Age of Exploration
+            CH 19: Age of Exploration
           </Link>
           <Link to={`/unit7/chapter20`} className="chapter-link">
-            Chapter 20: Revolutions in Thought
+            CH 20: Revolutions in Thought
           </Link>
         </div>
       </div>

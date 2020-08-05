@@ -1,6 +1,10 @@
 .unit-container {
   //   border: 1px solid black;
   margin-bottom: 5%;
+  @media (max-width: 800px) {
+    // border: 1px solid black;
+    margin-bottom: 150px;
+  }
   .jump-to-wrapper-right {
     display: flex;
     align-items: center;
@@ -8,6 +12,10 @@
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
+    @media (max-width: 800px) {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
     .jump-to-link {
       display: flex;
       align-items: center;
@@ -21,6 +29,9 @@
       .jump-to-arrow {
         margin-left: 10px;
         margin-right: 10px;
+        @media (max-width: 800px) {
+          // margin: 0;
+        }
       }
     }
   }
@@ -31,6 +42,10 @@
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
+    @media (max-width: 800px) {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
     .jump-to-link {
       display: flex;
       align-items: center;
@@ -44,6 +59,9 @@
       .jump-to-arrow {
         margin-left: 10px;
         margin-right: 10px;
+        @media (max-width: 800px) {
+          // margin: 0;
+        }
       }
     }
   }
@@ -54,12 +72,17 @@
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
+    @media (max-width: 800px) {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
     .jump-to-link {
       display: flex;
       align-items: center;
       text-decoration: none;
       color: black;
       font-family: "Alike Angular", serif;
+
       &:hover {
         text-decoration: underline;
       }
@@ -67,15 +90,20 @@
       .jump-to-arrow {
         margin-left: 10px;
         margin-right: 10px;
+        @media (max-width: 800px) {
+          margin: 0;
+        }
       }
     }
   }
 
   .unit-wrapper {
-    // border: 1px solid red;
     margin-top: 1%;
     margin-left: 10%;
     margin-right: 10%;
+    @media (max-width: 1200px) {
+      margin: 0;
+    }
   }
   .unit-subject-img {
     // border: 1px solid black;
@@ -83,24 +111,37 @@
   .subject-header {
     font-family: "Alike Angular", serif;
     font-size: 25px;
+
+    @media (max-width: 1200px) {
+      border: 1px solid black;
+      background: black;
+      color: white;
+    }
   }
   .chapters-wrappers {
     // border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     .chapter-links {
       //   border: 1px solid red;
       font-family: "Roboto", sans-serif;
-
+      @media (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+      }
       .chapter-link {
         // margin-left: 1%;
         // margin-right: 1%;
         // border: 1px solid black;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         font-size: 20px;
         color: black;
+        @media (max-width: 1200px) {
+          margin-top: 10px;
+        }
 
         &:hover {
           color: blue;
@@ -115,12 +156,20 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
+  @media (max-width: 800px) {
+    // border: 1px solid black;
+    margin-top: 50px;
+  }
   .chapter-header {
     display: flex;
     font-size: 30px;
     // border: 1px solid red;
     font-family: "Roboto", sans-serif;
     text-decoration: underline;
+    @media (max-width: 800px) {
+      font-size: 26px;
+      margin-bottom: 50px;
+    }
   }
   .vocab-term-wrapper {
     // border: 1px dotted gray;
@@ -129,29 +178,55 @@
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
-
+    border: 1px dotted black;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
+    @media (max-width: 800px) {
+      font-size: 16px;
+    }
     .vocab-term-header {
       // font-size: 20px;
       background: #ff4141;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
     #chapter2 {
       background: orange;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
     #chapter3 {
       background: yellow;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
     #chapter3b {
       background: pink;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
     #chapter4 {
       background: lightskyblue;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
     #chapter5 {
       background: turquoise;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
     #chapter6 {
       background: mediumpurple;
+      @media (max-width: 800px) {
+        white-space: nowrap;
+      }
     }
 
     .definition {

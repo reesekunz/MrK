@@ -35,16 +35,16 @@ function Unit5() {
       <div className="chapters-wrappers">
         <div className="chapter-links">
           <Link to={`/unit5/chapter10`} className="chapter-link">
-            Chapter 10: China's Golden Age
+            CH 10: China's Golden Age
           </Link>
           <Link to={`/unit5/chapter11`} className="chapter-link">
-            Chapter 11: China Under the Mongols and the Ming
+            CH 11: China Under the Mongols and the Ming
           </Link>
           <Link to={`/unit5/chapter12`} className="chapter-link">
-            Chapter 12: The Rise of Japan
+            CH 12: The Rise of Japan
           </Link>
           <Link to={`/unit5/chapter13`} className="chapter-link">
-            Chapter 13: Japan's Golden Age
+            CH 13: Japan's Golden Age
           </Link>
         </div>
       </div>
