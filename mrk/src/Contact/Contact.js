@@ -16,8 +16,10 @@ function Contact() {
           within 24 hours during a regular school day.
         </p>
         <p>Keep working hard. I'm proud of you!</p>
-        <p>- Mr. Kunz</p>
-        <p>San Pasqual Valley Middle School</p>
+        <p className="name-signature">Alan Kunz</p>
+        <p>Alan Kunz</p>
+        <p>7th Grade Social Studies and Mathematics</p>
+        <p>San Pasqual Valley Middle School Fighting Wildcats</p>
       </div>
     </div>
   );
