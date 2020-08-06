@@ -21,7 +21,11 @@ import Unit4 from "./SocialStudies/Vocabulary/Unit4";
 import Unit5 from "./SocialStudies/Vocabulary/Unit5";
 import Unit6 from "./SocialStudies/Vocabulary/Unit6";
 import Unit7 from "./SocialStudies/Vocabulary/Unit7";
+import ReactGA from "react-ga";
 
+const trackingId = "UA-174646350-1"; // Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
