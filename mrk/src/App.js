@@ -22,6 +22,9 @@ import Unit5 from "./SocialStudies/Vocabulary/Unit5";
 import Unit6 from "./SocialStudies/Vocabulary/Unit6";
 import Unit7 from "./SocialStudies/Vocabulary/Unit7";
 import ReactGA from "react-ga";
+import { Helmet } from "react-helmet";
+import Favicon16 from "./images/favicon-16x16.png";
+import Favicon32 from "./images/favicon-32x32.png";
 
 const trackingId = "UA-174646350-1"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
@@ -30,6 +33,12 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Mr. Kunz' Classroom</title>
+        <meta name="description" content="Showcasing projects I've built." />
+        <link rel="icon" type="image/png" sizes="16x16" href={Favicon16} />
+        <link rel="icon" type="image/png" sizes="32x32" href={Favicon32} />
+      </Helmet>
       {/* <Home className="home" /> */}
       <Route exact path="/" component={Home} />
       <Route path="/social-studies" component={SocialStudies} />
