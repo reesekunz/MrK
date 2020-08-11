@@ -3,8 +3,8 @@ import "./App.scss";
 
 import Home from "./Home/Home";
 import { Route, NavLink } from "react-router-dom";
-import SocialStudies from "./SocialStudies/SocialStudies";
-import MathPage from "./Math/Math";
+import SocialStudies from "./SocialStudies/SocialStudiesNew";
+import MathPage from "./Math/MathNew";
 import Events from "./Events/Events";
 import Contact from "./Contact/Contact";
 import About from "./About/About";

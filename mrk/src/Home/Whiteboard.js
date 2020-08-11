@@ -13,7 +13,7 @@ function Whiteboard() {
           </div>
 
           <div className="whiteboard-content">
-            <h3 className="whiteboard-header">Choose Your Subject:</h3>
+            {/* <h3 className="whiteboard-header">Choose Your Subject:</h3> */}
             <div className="tabs">
               <NavLink
                 to="/social-studies"
@@ -29,13 +29,6 @@ function Whiteboard() {
               >
                 Math
               </NavLink>
-              <NavLink
-                to="/events"
-                activeClassName="activeNavButton"
-                className="link"
-              >
-                School Events
-              </NavLink>
             </div>
             <div className="about-contact-container">
               <NavLink
@@ -46,7 +39,13 @@ function Whiteboard() {
                 {" "}
                 About
               </NavLink>
-
+              <NavLink
+                to="/events"
+                activeClassName="activeNavButton"
+                className="link"
+              >
+                Events
+              </NavLink>
               <NavLink
                 to="/contact"
                 activeClassName="activeNavButton"
