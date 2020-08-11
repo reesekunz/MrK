@@ -1,5 +1,6 @@
 import React from "react";
 import "../Hobbies.scss";
+import CitiesImg from "../../images/CitiesImg.png";
 
 function USCities() {
   return (
@@ -21,12 +22,12 @@ function USCities() {
         </ul>
       </div>
       <div className="img-wrapper">
-        {/* <img
-          src={Nats}
+        <img
+          src={CitiesImg}
           className="rafiki-img"
           id="sports-team"
-          alt="Washington Nationals"
-        /> */}
+          alt="Washington DC"
+        />
       </div>
     </div>
   );
