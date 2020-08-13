@@ -37,7 +37,7 @@ function SocialStudies() {
             </div>
           </Link>
           {/* IXL */}
-          <Link to={`/ixl`} className="box">
+          <a href="https://www.ixl.com/" className="box">
             <div>
               {" "}
               <h2 className="box-header">I.X.L.</h2>
@@ -46,7 +46,7 @@ function SocialStudies() {
                 src="https://img.icons8.com/dusk/64/000000/e-learning.png"
               />{" "}
             </div>
-          </Link>
+          </a>
           {/* Social Studies Classroom */}
           <Link to={`/contact`} className="box">
             <div>
