@@ -46,7 +46,7 @@ function Traveling() {
           U.S. States for me to visit
         </Link>
       </nav>
-      <p>
+      <p className="civil-war">
         I also have a huge interest in the U.S. Civil War. I have gotten the
         opportunity to visit several sites linked to the history of this
         five-year long event in U.S. History....
