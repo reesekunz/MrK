@@ -56,17 +56,21 @@ function MathNew() {
             </div>
           </a>
 
-          {/* Google Meet */}
-          <Link to={`/contact`} className="box">
+          {/* Zoom */}
+          <a
+            href="https://zoom.us/j/92949976715?pwd=bk1yQUdQT044bkY1MS9MNFlwSnlMdz09"
+            className="box"
+          >
+            {" "}
             <div>
               {" "}
-              <h2 className="box-header">Google Meet</h2>
+              <h2 className="box-header">Zoom</h2>
               <img
                 className="box-img"
-                src="https://img.icons8.com/dusk/64/000000/google-meet.png"
+                src="https://img.icons8.com/fluent/64/000000/zoom.png"
               />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

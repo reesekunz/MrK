@@ -145,7 +145,9 @@
       display: flex;
       justify-content: space-evenly;
       width: 68.5%;
+      // keep height 100% otherwise wont work on mobile
       height: 100%;
+
       .link {
         color: mediumpurple;
         color: #1f75fe;
@@ -161,6 +163,7 @@
       }
     }
   }
+
   // button {
   //   background: #2929a3;
   //   color: white;
