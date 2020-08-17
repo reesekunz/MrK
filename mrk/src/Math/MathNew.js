@@ -42,7 +42,10 @@ function MathNew() {
             </div>
           </a>
           {/* Math Classroom */}
-          <Link to={`/contact`} className="box">
+          <a
+            href="https://classroom.google.com/u/0/c/MTIyOTE3NjE5NDk5"
+            className="box"
+          >
             <div>
               {" "}
               <h2 className="box-header">Math Classroom</h2>
@@ -51,7 +54,7 @@ function MathNew() {
                 src="https://img.icons8.com/color/64/000000/google-classroom.png"
               />
             </div>
-          </Link>
+          </a>
 
           {/* Google Meet */}
           <Link to={`/contact`} className="box">

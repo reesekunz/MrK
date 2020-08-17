@@ -48,7 +48,10 @@ function SocialStudies() {
             </div>
           </a>
           {/* Social Studies Classroom */}
-          <Link to={`/contact`} className="box">
+          <a
+            href="https://classroom.google.com/u/0/c/MTIyODg4OTg4NzI2"
+            className="box"
+          >
             <div>
               {" "}
               <h2 className="box-header">Social Studies Classroom</h2>
@@ -57,8 +60,7 @@ function SocialStudies() {
                 src="https://img.icons8.com/color/64/000000/google-classroom.png"
               />
             </div>
-          </Link>
-
+          </a>
           {/* Google Meet */}
           <Link to={`/contact`} className="box">
             <div>
