@@ -129,9 +129,9 @@
         color: #1f75fe;
         font-size: 22px;
         line-height: 1.6;
-        &:hover {
-          transform: scaleY(1.5);
-        }
+        // &:hover {
+        //   transform: scaleY(1.5);
+        // }
         @media (max-width: 500px) {
           font-size: 20px;
         }
