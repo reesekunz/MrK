@@ -4,6 +4,8 @@ import { HashLink as Link } from "react-router-hash-link";
 import { Route } from "react-router-dom";
 import USStates from "./Top10/USStates";
 import USCities from "./Top10/USCities";
+import CivilWarSites from "./Top10/CivilWarSities";
+import CivilWarBattlefields from "./Top10/CivilWarBattlefields";
 function Traveling() {
   return (
     <div className="hobby-section" id="traveling">
@@ -14,8 +16,8 @@ function Traveling() {
       </p>
       <p>
         I love seeing the ocean, walking through a forest, visiting a busy city,
-        or checking out Civil War battle sites; I can't get enough of seeing
-        these grand United States of America.
+        or checking out historical sites; I can't get enough of seeing these
+        grand United States of America.
       </p>
       <p>
         Through my travels, I have visited thirty different states and six
@@ -44,9 +46,37 @@ function Traveling() {
           U.S. States for me to visit
         </Link>
       </nav>
+      <p>
+        I also have a huge interest in the U.S. Civil War. I have gotten the
+        opportunity to visit several sites linked to the history of this
+        five-year long event in U.S. History....
+      </p>
+      <nav className="disney-sports-traveling-links">
+        <p className="view-my">View Civil War Places I've Visited:</p>
 
+        <Link
+          to={`/about/hobbies/traveling/civil-war-sites#sites`}
+          className="disney-sports-traveling-link"
+        >
+          Sites
+        </Link>
+        <Link
+          to={`/about/hobbies/traveling/civil-war-battlefields#battlefields`}
+          className="disney-sports-traveling-link"
+        >
+          Battlefields
+        </Link>
+      </nav>
       <Route path="/about/hobbies/traveling/us-states" component={USStates} />
       <Route path="/about/hobbies/traveling/us-cities" component={USCities} />
+      <Route
+        path="/about/hobbies/traveling/civil-war-sites"
+        component={CivilWarSites}
+      />
+      <Route
+        path="/about/hobbies/traveling/civil-war-battlefields"
+        component={CivilWarBattlefields}
+      />
     </div>
   );
 }
