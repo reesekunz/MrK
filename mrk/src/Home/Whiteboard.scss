@@ -140,13 +140,16 @@
     .about-contact-container {
       font-size: 18px;
       font-family: "Permanent Marker", sans-serif, arial;
-      margin-bottom: 15px;
+      // margin-bottom: 15px;
 
       display: flex;
       justify-content: space-evenly;
       width: 68.5%;
+      // height: 100%;
       // keep height 100% otherwise wont work on mobile
-      height: 100%;
+      @media (max-width: 500px) {
+        height: 100%;
+      }
 
       .link {
         color: mediumpurple;
@@ -160,6 +163,20 @@
       @media (max-width: 500px) {
         width: 100%;
         // margin-top: 40px;
+      }
+    }
+    .zoom-container {
+      margin: 0;
+      margin-top: -32.5px;
+      padding-right: 5px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      width: 68.5%;
+      @media (max-width: 500px) {
+        margin-top: -150px;
+        position: absolute;
+        width: 100%;
       }
     }
   }

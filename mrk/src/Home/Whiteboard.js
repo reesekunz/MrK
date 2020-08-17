@@ -55,6 +55,11 @@ function Whiteboard() {
                 Contact
               </NavLink>
             </div>
+            <div className="zoom-container">
+              <a href="https://zoom.us/j/92949976715?pwd=bk1yQUdQT044bkY1MS9MNFlwSnlMdz09">
+                <img src="https://img.icons8.com/fluent/36/000000/zoom.png" />
+              </a>
+            </div>
           </div>
 
           <div id="eraser"></div>
