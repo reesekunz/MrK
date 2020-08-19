@@ -48,10 +48,7 @@ function SocialStudies() {
             </div>
           </a>
           {/* Social Studies Classroom */}
-          <a
-            href="https://classroom.google.com/u/0/c/MTIyODg4OTg4NzI2"
-            className="box"
-          >
+          <a href="https://classroom.google.com" className="box">
             <div>
               {" "}
               <h2 className="box-header">Social Studies Classroom</h2>

@@ -42,10 +42,7 @@ function MathNew() {
             </div>
           </a>
           {/* Math Classroom */}
-          <a
-            href="https://classroom.google.com/u/0/c/MTIyOTE3NjE5NDk5"
-            className="box"
-          >
+          <a href="https://classroom.google.com" className="box">
             <div>
               {" "}
               <h2 className="box-header">Math Classroom</h2>
