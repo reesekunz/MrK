@@ -45,6 +45,14 @@ function SocialStudies() {
                 className="box-img"
                 src="https://img.icons8.com/dusk/64/000000/e-learning.png"
               />{" "}
+              <div className="sub-links">
+                <div className="sub-link">
+                  <a href="https://www.ixl.com/">Website</a>
+                </div>
+                <div className="sub-link">
+                  <Link to={`/ixl-directions-social-studies`}>Directions</Link>
+                </div>
+              </div>
             </div>
           </a>
           {/* Social Studies Classroom */}

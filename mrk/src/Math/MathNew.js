@@ -44,7 +44,7 @@ function MathNew() {
                   <a href="https://www.ixl.com/">Website</a>
                 </div>
                 <div className="sub-link">
-                  <Link to={`/ixl-directions`}>Directions</Link>
+                  <Link to={`/ixl-directions-math`}>Directions</Link>
                 </div>
               </div>
             </div>

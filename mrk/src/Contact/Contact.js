@@ -19,7 +19,7 @@ function Contact() {
         <p>Keep working hard. I'm proud of you!</p>
         <p className="name-signature">Alan Kunz</p>
         <p>Alan Kunz</p>
-        <p>7th Grade Social Studies and Mathematics</p>
+        <p>7th Grade Social Studies, Mathematics, and Science</p>
         <p>San Pasqual Valley Middle School Fighting Wildcats</p>
         <img src={SchoolLogo} className="logo-img" />
       </div>
