@@ -110,6 +110,35 @@
           height: 60px;
           margin-top: 5px;
         }
+        .sub-links {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 12.5px;
+
+          .sub-link {
+            // width: 50%;
+            margin-left: 7.5px;
+            margin-right: 7.5px;
+            border: 1px solid black;
+            padding: 3%;
+            border-radius: 5px;
+            background: white;
+
+            &:hover {
+              background: black;
+            }
+
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 15px;
+              &:hover {
+                color: white;
+              }
+            }
+          }
+        }
       }
     }
   }

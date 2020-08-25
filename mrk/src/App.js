@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import { Route, NavLink } from "react-router-dom";
 import SocialStudies from "./SocialStudies/SocialStudiesNew";
 import MathPage from "./Math/MathNew";
+import IXLDirections from "./Math/IXLDirections";
 import Events from "./Events/Events";
 import Contact from "./Contact/Contact";
 import About from "./About/About";
@@ -59,6 +60,7 @@ function App() {
       <Route path="/unit5" component={Unit5} />{" "}
       <Route path="/unit6" component={Unit6} />{" "}
       <Route path="/unit7" component={Unit7} />{" "}
+      <Route path="/ixl-directions" component={IXLDirections} />{" "}
     </div>
   );
 }
