@@ -1,7 +1,4 @@
 .about-container {
-  // background: azure;
-  // border: 1px solid blue;
-  
   height: 100%;
   .subject-header {
     text-decoration: underline;
@@ -49,15 +46,11 @@
       margin-top: 5%;
     }
     .about-link {
-      // border: 1px solid black;
 
       text-decoration: none;
       padding: 1.5%;
       font-size: 24px;
       color: black;
-      // color: white;
-      // background: black;
-      // border-radius: 5px;
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;

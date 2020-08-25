@@ -95,7 +95,6 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
         width: 50%;
         text-align: left;
         color: white !important;
-        // font-family: "Nothing You Could Do", cursive;
         font-family: "Indie Flower", cursive;
         z-index: 1;
         @media (max-width: 1600px) {
@@ -135,8 +134,7 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
 
       height: 3em !important;
       transform: translate(-50%, -50%);
-      //   background: mediumpurple !important;
-      //   background-image: $wall-material;
+
       &:before {
         content: "";
         position: absolute;
@@ -160,7 +158,6 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
       transform: translate(-50%, -5.5em) rotateX(-90deg);
       transform-origin: bottom center;
       background-image: $wall-material;
-      // background-size: 100%;
 
       background: rgb(131, 58, 180);
       background: linear-gradient(
@@ -169,7 +166,6 @@ $wall-material: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/138980/d1e55cb1
         rgba(253, 29, 29, 1) 50%,
         rgba(252, 176, 69, 1) 100%
       );
-      // background-size: 150%;
       &:before {
         content: "";
         position: absolute;

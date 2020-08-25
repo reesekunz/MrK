@@ -13,15 +13,15 @@ function Hobbies() {
       <nav className="hobby-tabs">
         <Link to={`/about/hobbies/disney-fan#disney`} className="hobbies-link">
           Disney Fan
-          {/* <IoMdSchool size={35} /> */}
         </Link>
         <Link to={`/about/hobbies/sports#sports`} className="hobbies-link">
           Sports
-          {/* <GrWorkshop size={35} color="white" /> */}
         </Link>
-        <Link to={`/about/hobbies/traveling#traveling`} className="hobbies-link">
+        <Link
+          to={`/about/hobbies/traveling#traveling`}
+          className="hobbies-link"
+        >
           Traveling
-          {/* <AiOutlineSmile size={35} /> */}
         </Link>
       </nav>
       <Route path="/about/hobbies/disney-fan" component={DisneyFan} />

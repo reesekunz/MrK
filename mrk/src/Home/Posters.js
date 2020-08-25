@@ -1,7 +1,6 @@
 import React from "react";
 import "./Posters.scss";
 import MathJokes from "../images/MathJokes.jpg";
-// import { RiWindowsLine } from "react-icons/ri";
 
 function Posters() {
   return (

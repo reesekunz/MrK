@@ -9,7 +9,6 @@ import Hobbies from "./Hobbies";
 import { IoMdSchool } from "react-icons/io";
 import { GrWorkshop } from "react-icons/gr";
 import { AiOutlineSmile } from "react-icons/ai";
-// import { animateScroll as scroll } from "react-scroll";
 import { HashLink as Link } from "react-router-hash-link";
 
 function About() {

@@ -13,7 +13,6 @@ function Whiteboard() {
           </div>
 
           <div className="whiteboard-content">
-            {/* <h3 className="whiteboard-header">Choose Your Subject:</h3> */}
             <div className="tabs">
               <NavLink
                 to="/social-studies"
